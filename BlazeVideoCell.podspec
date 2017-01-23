@@ -11,6 +11,4 @@ Pod::Spec.new do |s|
   s.platform       = :ios
   s.requires_arc   = 'true'
   s.dependency     'Blaze'
-  s.dependency     'AVKit'
-  s.dependency	   'AVFoundation'
 end
