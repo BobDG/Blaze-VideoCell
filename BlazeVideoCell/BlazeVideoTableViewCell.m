@@ -59,6 +59,11 @@
     }
 }
 
+-(void)pause
+{
+    [self.playerViewController.player pause];
+}
+
 -(void)awakeFromNib
 {
     [super awakeFromNib];
