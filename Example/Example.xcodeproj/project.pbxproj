@@ -19,9 +19,9 @@
 		ED4B39A81E360D71008D86B2 /* BlazeVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4B39A61E360D71008D86B2 /* BlazeVideoTableViewCell.m */; };
 		ED56931B1E36073C00E8EF10 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED56931A1E36073C00E8EF10 /* AVKit.framework */; };
 		ED56931C1E360A5500E8EF10 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5693181E3606DF00E8EF10 /* AVFoundation.framework */; };
-		ED727D291E8164F600D1474F /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED727D261E8164F600D1474F /* YTPlayerView.m */; };
-		ED727D2B1E81652E00D1474F /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = ED727D2A1E81652E00D1474F /* Assets */; };
 		ED727D2D1E81660000D1474F /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED727D2C1E81660000D1474F /* TextTableViewCell.xib */; };
+		ED727D341E81681B00D1474F /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = ED727D311E81681B00D1474F /* YTPlayerView-iframe-player.html */; };
+		ED727D351E81681B00D1474F /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED727D331E81681B00D1474F /* YTPlayerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,10 +45,10 @@
 		ED4B39A61E360D71008D86B2 /* BlazeVideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlazeVideoTableViewCell.m; sourceTree = "<group>"; };
 		ED5693181E3606DF00E8EF10 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		ED56931A1E36073C00E8EF10 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
-		ED727D251E8164F600D1474F /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
-		ED727D261E8164F600D1474F /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
-		ED727D2A1E81652E00D1474F /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 		ED727D2C1E81660000D1474F /* TextTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
+		ED727D311E81681B00D1474F /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
+		ED727D321E81681B00D1474F /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		ED727D331E81681B00D1474F /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,6 @@
 		ED0985281E1E6C5D00A3B041 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				ED727D221E8164F600D1474F /* YoutubeHelper */,
 				ED0985291E1E6C5D00A3B041 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -133,6 +132,7 @@
 		ED4B39A21E360D71008D86B2 /* BlazeVideoCell */ = {
 			isa = PBXGroup;
 			children = (
+				ED727D301E81681B00D1474F /* Youtube */,
 				ED4B39A31E360D71008D86B2 /* BlazeVideoRow.h */,
 				ED4B39A41E360D71008D86B2 /* BlazeVideoRow.m */,
 				ED4B39A51E360D71008D86B2 /* BlazeVideoTableViewCell.h */,
@@ -142,14 +142,14 @@
 			path = ../../BlazeVideoCell;
 			sourceTree = "<group>";
 		};
-		ED727D221E8164F600D1474F /* YoutubeHelper */ = {
+		ED727D301E81681B00D1474F /* Youtube */ = {
 			isa = PBXGroup;
 			children = (
-				ED727D2A1E81652E00D1474F /* Assets */,
-				ED727D251E8164F600D1474F /* YTPlayerView.h */,
-				ED727D261E8164F600D1474F /* YTPlayerView.m */,
+				ED727D311E81681B00D1474F /* YTPlayerView-iframe-player.html */,
+				ED727D321E81681B00D1474F /* YTPlayerView.h */,
+				ED727D331E81681B00D1474F /* YTPlayerView.m */,
 			);
-			path = YoutubeHelper;
+			path = Youtube;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,10 +216,10 @@
 			files = (
 				ED0985381E1E6C5D00A3B041 /* LaunchScreen.storyboard in Resources */,
 				ED0985351E1E6C5D00A3B041 /* Assets.xcassets in Resources */,
+				ED727D341E81681B00D1474F /* YTPlayerView-iframe-player.html in Resources */,
 				ED727D2D1E81660000D1474F /* TextTableViewCell.xib in Resources */,
 				ED2A1F611E1E6F2F0099242F /* VideoTableViewCell.xib in Resources */,
 				ED0985331E1E6C5D00A3B041 /* Main.storyboard in Resources */,
-				ED727D2B1E81652E00D1474F /* Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +280,7 @@
 			files = (
 				ED4B39A71E360D71008D86B2 /* BlazeVideoRow.m in Sources */,
 				ED0985301E1E6C5D00A3B041 /* ViewController.m in Sources */,
-				ED727D291E8164F600D1474F /* YTPlayerView.m in Sources */,
+				ED727D351E81681B00D1474F /* YTPlayerView.m in Sources */,
 				ED09852D1E1E6C5D00A3B041 /* AppDelegate.m in Sources */,
 				ED09852A1E1E6C5D00A3B041 /* main.m in Sources */,
 				ED4B39A81E360D71008D86B2 /* BlazeVideoTableViewCell.m in Sources */,
