@@ -143,7 +143,7 @@ typedef NS_ENUM(NSInteger, YTPlayerError) {
 @property(nonatomic, strong, nullable, readonly) UIWebView *webView;
 
 /** A delegate to be notified on playback events. */
-@property(nonatomic, assign, nullable) id<YTPlayerViewDelegate> delegate;
+@property(nonatomic, weak, nullable) id<YTPlayerViewDelegate> delegate;
 
 /**
  * This method loads the player with the given video ID.
@@ -611,7 +611,7 @@ typedef NS_ENUM(NSInteger, YTPlayerError) {
  * |default|. This method corresponds to the JavaScript API defined here:
  *   https://developers.google.com/youtube/iframe_api_reference#setPlaybackQuality
  *
- * @param suggestedQuality YTPlaybackQuality value to suggest for the player.
+ * @param quality YTPlaybackQuality value to suggest for the player.
  */
 - (void)setPlaybackQuality:(YTPlaybackQuality)suggestedQuality;
 

@@ -65,7 +65,7 @@ NSString static *const kYTPlayerSyndicationRegexPattern = @"^https://tpc.googles
 @interface YTPlayerView()
 
 @property (nonatomic, strong) NSURL *originURL;
-@property (nonatomic, strong) UIView *initialLoadingView;
+@property (nonatomic, weak) UIView *initialLoadingView;
 
 @end
 
@@ -494,7 +494,7 @@ NSString static *const kYTPlayerSyndicationRegexPattern = @"^https://tpc.googles
 /**
  * Convert a state value from the typed value to NSString.
  *
- * @param state A |YTPlayerState| parameter.
+ * @param quality A |YTPlayerState| parameter.
  * @return A string value to be used in the JavaScript bridge.
  */
 + (NSString *)stringForPlayerState:(YTPlayerState)state {
@@ -708,11 +708,9 @@ NSString static *const kYTPlayerSyndicationRegexPattern = @"^https://tpc.googles
   [self addSubview:self.webView];
 
   NSError *error = nil;
-  NSString *path = [[NSBundle bundleForClass:[self class]] pathForResource:@"YTPlayerView-iframe-player" ofType:@"html"];
-    
-  /*NSString *path = [[NSBundle bundleForClass:[YTPlayerView class]] pathForResource:@"YTPlayerView-iframe-player"
+  NSString *path = [[NSBundle bundleForClass:[YTPlayerView class]] pathForResource:@"YTPlayerView-iframe-player"
                                                    ofType:@"html"
-                                              inDirectory:@"Assets"];*/
+                                              inDirectory:@"Assets"];
     
   // in case of using Swift and embedded frameworks, resources included not in main bundle,
   // but in framework bundle
@@ -773,7 +771,7 @@ NSString static *const kYTPlayerSyndicationRegexPattern = @"^https://tpc.googles
  * @param index 0-index position of video to start playback on.
  * @param startSeconds Seconds after start of video to begin playback.
  * @param suggestedQuality Suggested YTPlaybackQuality to play the videos.
- * The result of cueing the playlist.
+ * @return The result of cueing the playlist.
  */
 - (void)cuePlaylist:(NSString *)cueingString
                index:(int)index
@@ -796,7 +794,7 @@ NSString static *const kYTPlayerSyndicationRegexPattern = @"^https://tpc.googles
  * @param index 0-index position of video to start playback on.
  * @param startSeconds Seconds after start of video to begin playback.
  * @param suggestedQuality Suggested YTPlaybackQuality to play the videos.
- * The result of cueing the playlist.
+ * @return The result of cueing the playlist.
  */
 - (void)loadPlaylist:(NSString *)cueingString
                index:(int)index
