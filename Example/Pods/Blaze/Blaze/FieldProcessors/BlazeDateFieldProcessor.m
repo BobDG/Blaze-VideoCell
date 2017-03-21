@@ -1,23 +1,32 @@
 //
-//  BlazeTableDateCell.m
-//  Blaze
+//  BlazeDateFieldProcessor.m
+//  BlazeExample
 //
-//  Created by Bob de Graaf on 16-04-15.
-//  Copyright (c) 2015 GraafICT. All rights reserved.
+//  Created by Bob de Graaf on 28-01-17.
+//  Copyright © 2017 GraafICT. All rights reserved.
 //
 
-#import "BlazeDateTableViewCell.h"
+#import "BlazeDatePickerField.h"
+#import "BlazeDateFieldProcessor.h"
 
-@interface BlazeTableViewCell () <UITextFieldDelegate>
+@interface BlazeDateFieldProcessor () <UITextFieldDelegate>
+{
+    
+}
+
+//Properties
+@property(nonatomic,strong) NSDate *date;
+@property(nonatomic,strong) NSDateFormatter *dateFormatter;
+@property(nonatomic,strong) BlazeDatePickerField *dateField;
 
 @end
 
-@implementation BlazeDateTableViewCell
+@implementation BlazeDateFieldProcessor
 
--(void)updateCell
+-(void)update
 {
-    //AccessoryInputView
-    [self updateAccessoryInputView];
+    //Set field
+    self.dateField = self.field;
     
     //Date & formatter
     self.date = self.row.value;
@@ -26,14 +35,10 @@
     self.dateField.datePicker.datePickerMode = self.row.datePickerMode;
     
     //Min date
-    if(self.row.minDate) {
-        self.dateField.datePicker.minimumDate = self.row.minDate;
-    }
+    self.dateField.datePicker.minimumDate = self.row.minDate;
     
     //Max date
-    if(self.row.maxDate) {
-        self.dateField.datePicker.maximumDate = self.row.maxDate;
-    }
+    self.dateField.datePicker.maximumDate = self.row.maxDate;
     
     //Minute interval
     if(self.row.dateMinuteInterval) {
@@ -58,19 +63,10 @@
     [self.dateField mergeBlazeRowWithInspectables:self.row];
     
     //Editable
-    self.dateField.userInteractionEnabled = !self.row.disableEditing;    
-}
-
--(void)setSelected:(BOOL)selected animated:(BOOL)animated
-{
-    if(selected && self.dateField.userInteractionEnabled) {
-        [self.dateField becomeFirstResponder];
-    }
-}
-
--(void)awakeFromNib
-{
-    [super awakeFromNib];
+    self.dateField.userInteractionEnabled = !self.row.disableEditing;
+    
+    //AccessoryInputView
+    [self updateAccessoryInputView];
     
     //Delegate
     self.dateField.delegate = self;
@@ -89,7 +85,7 @@
     //Only for default inputAccessoryView
     if(self.row.inputAccessoryViewType == InputAccessoryViewDefault) {
         //Get toolbar
-        self.dateField.inputAccessoryView = [self defaultInputAccessoryViewToolbar];
+        self.dateField.inputAccessoryView = [self.cell defaultInputAccessoryViewToolbar];
         
         //Update
         __weak __typeof(self)weakSelf = self;
@@ -99,17 +95,18 @@
     }
 }
 
--(IBAction)cellTapped:(id)sender
-{
-    [self.dateField becomeFirstResponder];
-}
-
 -(void)updateSelectedDate:(NSDate *)date
 {
     self.date = date;
     self.row.value = date;
     if(self.dateFormatter) {
-        self.dateField.text = [[self.dateFormatter stringFromDate:date] capitalizedString];
+        //Special case - capitalzed final text (not possible with NSDateFormatter unfortunately...)
+        if(self.row.dateFormatCapitalizedString) {
+            self.dateField.text = [[self.dateFormatter stringFromDate:date] capitalizedString];
+        }
+        else {
+            self.dateField.text = [self.dateFormatter stringFromDate:date];
+        }
     }
     [self.row updatedValue:date];
 }
@@ -128,35 +125,24 @@
     
     //Go
     [self updateSelectedDate:self.dateField.datePicker.date];
+    
+    //Callback
+    if(self.row.textFieldDidBeginEditing) {
+        self.row.textFieldDidBeginEditing(self.dateField);
+    }
 }
 
-#pragma mark - FirstResponder
-
--(BOOL)canBecomeFirstResponder
+-(void)textFieldDidEndEditing:(UITextField *)textField
 {
-    return self.dateField.userInteractionEnabled;
-}
-
--(BOOL)becomeFirstResponder
-{
-    return [self.dateField becomeFirstResponder];
+    if(self.row.textFieldDidEndEditing) {
+        self.row.textFieldDidEndEditing(self.dateField);
+    }
+    if(self.row.doneChanging) {
+        self.row.doneChanging();
+    }
 }
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

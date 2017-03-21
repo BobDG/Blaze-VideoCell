@@ -9,6 +9,7 @@
 #import <AVKit/AVKit.h>
 #import <AVFoundation/AVFoundation.h>
 
+#import "YTPlayerView.h"
 #import "BlazeVideoRow.h"
 #import "BlazeVideoTableViewCell.h"
 
@@ -17,6 +18,7 @@
     
 }
 
+@property(nonatomic,strong) YTPlayerView *youTubePlayerView;
 @property(nonatomic,strong) AVPlayerViewController *playerViewController;
 
 @end
@@ -32,6 +34,24 @@
     
     //Clear previous
     [self.videoPlayerView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+    
+    //Youtube
+    if(row.youtubeID.length) {
+        self.youTubePlayerView = nil;
+        self.youTubePlayerView = [[YTPlayerView alloc] initWithFrame:self.videoPlayerView.bounds];
+        self.youTubePlayerView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
+        [self.videoPlayerView addSubview:self.youTubePlayerView];
+        
+        NSMutableDictionary *playerVars = [[NSMutableDictionary alloc] initWithDictionary:@{@"playsinline" : @(TRUE)}];
+        //Please note that Autoplay for Youtube is not working yet - https://github.com/youtube/youtube-ios-player-helper/issues/67
+        if(row.videoAutoPlay) {
+            playerVars[@"autoplay"] = @1;
+        }
+        [self.youTubePlayerView loadWithVideoId:row.youtubeID playerVars:playerVars];
+        return;
+    }
+    
+    
     
     //Setup player
     if(!self.playerViewController) {
@@ -59,9 +79,19 @@
     }
 }
 
+-(void)willDisappear
+{
+    [self pause];
+}
+
 -(void)pause
 {
-    [self.playerViewController.player pause];
+    if(self.playerViewController) {
+        [self.playerViewController.player pause];
+    }
+    else if(self.youTubePlayerView) {
+        [self.youTubePlayerView pauseVideo];
+    }
 }
 
 -(void)awakeFromNib

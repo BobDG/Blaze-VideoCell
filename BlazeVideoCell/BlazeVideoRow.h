@@ -17,5 +17,6 @@
 @property(nonatomic) bool videoDisableControls;
 
 @property(nonatomic,strong) NSURL *videoURL;
+@property(nonatomic,strong) NSString *youtubeID;
 
 @end

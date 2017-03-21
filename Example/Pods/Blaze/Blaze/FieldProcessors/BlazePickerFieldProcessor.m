@@ -1,23 +1,47 @@
 //
-//  BlazePickerViewTableViewCell.m
-//  Blaze
+//  BlazePickerFieldProcessor.m
+//  BlazeExample
 //
-//  Created by Bob de Graaf on 05-01-16.
-//  Copyright © 2016 GraafICT. All rights reserved.
+//  Created by Bob de Graaf on 29-01-17.
+//  Copyright © 2017 GraafICT. All rights reserved.
 //
 
-#import "BlazePickerViewTableViewCell.h"
+#import "BlazePickerViewField.h"
+#import "BlazePickerFieldProcessor.h"
 
-@interface BlazePickerViewTableViewCell () <UITextFieldDelegate>
+@interface BlazePickerFieldProcessor () <UITextFieldDelegate>
+{
+    
+}
+
+@property(nonatomic,strong) BlazePickerViewField *pickerField;
 
 @end
 
-@implementation BlazePickerViewTableViewCell
+@implementation BlazePickerFieldProcessor
 
--(void)updateCell
+-(void)update
 {
+    //Set field
+    self.pickerField = self.field;
+    
     //AccessoryInputView
     [self updateAccessoryInputView];
+    
+    //Delegate
+    self.pickerField.delegate = self;
+    
+    __weak __typeof(self)weakSelf = self;
+    [self.pickerField setPickerCancelled:^{
+        [weakSelf.pickerField resignFirstResponder];
+    }];
+    [self.pickerField setPickerSelected:^(int index) {
+        [weakSelf.pickerField resignFirstResponder];
+        [weakSelf updateSelectedIndex:index];
+    }];
+    
+    //Editable
+    self.pickerField.userInteractionEnabled = !self.row.disableEditing;
     
     //PickerValues (use immediate strings or possible object titles)
     NSString *textValue;
@@ -31,21 +55,30 @@
         }
     }
     else {
-        textValue = self.row.value;
         [pickerValues addObjectsFromArray:self.row.selectorOptions];
     }
     self.pickerField.pickerValues = pickerValues;
     
-    //Get index
-    NSUInteger index = NSNotFound;
-    if(textValue.length) {
-        index = [pickerValues indexOfObject:textValue];
-    }
-    
     //Merge BlazeRow's configuration with the BlazeTextField
     [self.pickerField mergeBlazeRowWithInspectables:self.row];
     
-    //No index check
+    //Index
+    NSUInteger index = NSNotFound;
+    
+    //Get index based on usePickerIndex or not
+    if(self.row.pickerUseIndexValue) {
+        if(self.row.value) {
+            index = [self.row.value integerValue];
+        }
+    }
+    else {
+        textValue = self.row.value;
+        if(textValue.length) {
+            index = [pickerValues indexOfObject:textValue];
+        }
+    }
+    
+    //No index found
     if(index == NSNotFound) {
         self.pickerField.text = @"";
         return;
@@ -56,26 +89,6 @@
         self.pickerField.text = pickerValues[index];
     }
     self.pickerField.selectedIndex = (int)index;
-    
-    //Editable
-    self.pickerField.userInteractionEnabled = !self.row.disableEditing;
-}
-
--(void)awakeFromNib
-{
-    [super awakeFromNib];
-    
-    //Delegate
-    self.pickerField.delegate = self;
-    
-    __weak __typeof(self)weakSelf = self;
-    [self.pickerField setPickerCancelled:^{
-        [weakSelf resignFirstResponder];
-    }];
-    [self.pickerField setPickerSelected:^(int index) {
-        [weakSelf resignFirstResponder];
-        [weakSelf updateSelectedIndex:index];
-    }];
 }
 
 -(void)updateAccessoryInputView
@@ -83,7 +96,7 @@
     //Only for default inputAccessoryView
     if(self.row.inputAccessoryViewType == InputAccessoryViewDefault) {
         //Get toolbar
-        self.pickerField.inputAccessoryView = [self defaultInputAccessoryViewToolbar];
+        self.pickerField.inputAccessoryView = [self.cell defaultInputAccessoryViewToolbar];
         
         //Update for changes
         __weak __typeof(self)weakSelf = self;
@@ -93,18 +106,16 @@
     }
 }
 
--(void)setSelected:(BOOL)selected animated:(BOOL)animated
-{
-    if(selected && self.pickerField.userInteractionEnabled) {
-        [self.pickerField becomeFirstResponder];
-    }
-}
-
 -(void)updateSelectedIndex:(int)index
 {
     if(index < self.pickerField.pickerValues.count) {
         //Value
-        self.row.value = self.row.selectorOptions[index];
+        if(self.row.pickerUseIndexValue) {
+            self.row.value = @(index);
+        }
+        else {
+            self.row.value = self.row.selectorOptions[index];
+        }
         
         //Field text from strings or object
         self.pickerField.text = self.pickerField.pickerValues[index];
@@ -132,18 +143,21 @@
     
     //Go
     [self updateSelectedIndex:0];
+    
+    //Callback
+    if(self.row.textFieldDidBeginEditing) {
+        self.row.textFieldDidBeginEditing(self.pickerField);
+    }
 }
 
-#pragma mark - FirstResponder
-
--(BOOL)canBecomeFirstResponder
+-(void)textFieldDidEndEditing:(UITextField *)textField
 {
-    return self.pickerField.userInteractionEnabled;
-}
-
--(BOOL)becomeFirstResponder
-{
-    return [self.pickerField becomeFirstResponder];
+    if(self.row.textFieldDidEndEditing) {
+        self.row.textFieldDidEndEditing(self.pickerField);
+    }
+    if(self.row.doneChanging) {
+        self.row.doneChanging();
+    }
 }
 
 @end

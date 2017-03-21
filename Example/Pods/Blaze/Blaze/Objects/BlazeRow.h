@@ -20,6 +20,15 @@ typedef NS_ENUM(NSInteger, FloatingLabelEnabledState) {
     FloatingLabelStateEnabled = 1,
 };
 
+typedef NS_ENUM(NSInteger, ImageType) {
+    ImageFromURL,
+    ImageFromBundle,
+    ImageFromData,
+};
+
+@class BlazeTextField;
+@class BlazeTableViewCell;
+
 @interface BlazeRow : NSObject
 {
     
@@ -39,9 +48,13 @@ typedef NS_ENUM(NSInteger, FloatingLabelEnabledState) {
 
 //Constructors with XibName
 +(instancetype)rowWithXibName:(NSString *)xibName;
++(instancetype)rowWithXibName:(NSString *)xibName height:(NSNumber *)height;
 +(instancetype)rowWithXibName:(NSString *)xibName title:(NSString *)title;
++(instancetype)rowWithXibName:(NSString *)xibName title:(NSString *)title subtitle:(NSString *)subtitle;
 -(instancetype)initWithXibName:(NSString *)xibName;
+-(instancetype)initWithXibName:(NSString *)xibName height:(NSNumber *)height;
 -(instancetype)initWithXibName:(NSString *)xibName title:(NSString *)title;
+-(instancetype)initWithXibName:(NSString *)xibName title:(NSString *)title subtitle:(NSString *)subtitle;
 -(instancetype)initWithXibName:(NSString *)xibName title:(NSString *)title segueIdentifier:(NSString *)segueIdentifier;
 -(instancetype)initWithXibName:(NSString *)xibName title:(NSString *)title placeholder:(NSString *)placeholder;
 -(instancetype)initWithXibName:(NSString *)xibName title:(NSString *)title value:(id)value placeholder:(NSString *)placeholder;
@@ -61,33 +74,51 @@ typedef NS_ENUM(NSInteger, FloatingLabelEnabledState) {
 
 //CompletionBlocks
 @property(nonatomic,copy) void (^cellTapped)(void);
+@property(nonatomic,copy) void (^cellDeleted)(void);
 @property(nonatomic,copy) void (^valueChanged)(void);
 @property(nonatomic,copy) void (^valueChangedWithValue)(id value);
 @property(nonatomic,copy) void (^buttonLeftTapped)(void);
 @property(nonatomic,copy) void (^buttonRightTapped)(void);
 @property(nonatomic,copy) void (^buttonCenterTapped)(void);
 @property(nonatomic,copy) void (^doneChanging)(void);
-@property(nonatomic,copy) void (^configureCell)(UITableViewCell *cell);
+@property(nonatomic,copy) void (^configureCell)(BlazeTableViewCell *cell);
 @property(nonatomic,copy) void (^multipleSelectionFinished)(NSMutableArray *selectedIndexPaths);
+@property(nonatomic,copy) void (^textFieldDidBeginEditing)(BlazeTextField* textField);
+@property(nonatomic,copy) void (^textFieldDidEndEditing)(BlazeTextField* textField);
+@property(nonatomic,copy) BOOL (^textFieldShouldChangeCharactersInRange)(BlazeTextField *textField, NSRange range, NSString *replacementString);
 
 //Row primitives
 @property(nonatomic) int ID;
-@property(nonatomic) int rowHeight;
-@property(nonatomic) float rowHeightRatio;
+@property(nonatomic) bool enableDeleting;
 @property(nonatomic) bool disableEditing;
 @property(nonatomic) bool rowHeightDynamic;
+
+//Heights
+@property(nonatomic,strong) NSNumber *rowHeight;
+@property(nonatomic,strong) NSNumber *rowHeightRatio;
+@property(nonatomic,strong) NSNumber *estimatedRowHeight;
 
 //Row Reference types
 @property(nonatomic,strong) id value;
 @property(nonatomic,strong) NSString *xibName;
+@property(nonatomic,strong) UIColor *selectionBackgroundColor;
+
+//For tapped cells - push using segue/storyboard
 @property(nonatomic,strong) NSString *segueIdentifier;
 @property(nonatomic,strong) NSString *storyboardID;
 @property(nonatomic,strong) NSString *storyboardName;
-@property(nonatomic,strong) UIColor *selectionBackgroundColor;
+
+//For tapped cells - push using navigationcontroller
+@property(nonatomic) UITableViewStyle navigationTableViewStyle;
+@property(nonatomic,strong) NSString *navigationViewControllerClassName;
+@property(nonatomic,strong) NSString *navigationTableViewControllerClassName;
 
 //Object & Possible property name
 @property(nonatomic,strong) id object;
 @property(nonatomic, strong) NSString *propertyName;
+
+//Additional rows for additional fields
+@property(nonatomic,strong) NSArray *additionalRows;
 
 //InputAccessoryViewType
 @property(nonatomic) InputAccessoryViewType inputAccessoryViewType;
@@ -106,6 +137,9 @@ typedef NS_ENUM(NSInteger, FloatingLabelEnabledState) {
 @property(nonatomic,strong) NSString *subsubtitle;
 @property(nonatomic,strong) UIColor *subsubtitleColor;
 @property(nonatomic,strong) NSAttributedString *attributedSubSubtitle;
+
+//Additional labels
+@property(nonatomic,strong) NSArray *additionalTitles;
 
 //Buttons
 @property(nonatomic,strong) NSString *buttonLeftTitle;
@@ -170,6 +204,7 @@ typedef NS_ENUM(NSInteger, FloatingLabelEnabledState) {
 @property(nonatomic,assign) BOOL tilesMultipleSelection;
 
 //Pickerview
+@property(nonatomic) bool pickerUseIndexValue;
 @property(nonatomic,strong) NSArray *selectorOptions;
 @property(nonatomic,strong) NSString *pickerObjectPropertyName;
 
@@ -177,12 +212,22 @@ typedef NS_ENUM(NSInteger, FloatingLabelEnabledState) {
 @property(nonatomic,strong) NSString *checkboxImageActive;
 @property(nonatomic,strong) NSString *checkboxImageInactive;
 
+//PageControl
+@property(nonatomic) int currentPage;
+@property(nonatomic) int numberOfPages;
+
+//ScrollImages
+@property(nonatomic) ImageType scrollImageType;
+@property(nonatomic) UIViewContentMode scrollImageContentMode;
+@property(nonatomic,strong) NSArray *scrollImages;
+
 //Date
 @property(nonatomic,strong) NSDate *minDate;
 @property(nonatomic,strong) NSDate *maxDate;
 @property(nonatomic) NSUInteger dateMinuteInterval;
 @property(nonatomic,strong) NSDate *placeholderDate;
 @property(nonatomic) UIDatePickerMode datePickerMode;
+@property(nonatomic) bool dateFormatCapitalizedString;
 @property(nonatomic,strong) NSDateFormatter *dateFormatter;
 
 //TextField/TextView
@@ -192,8 +237,8 @@ typedef NS_ENUM(NSInteger, FloatingLabelEnabledState) {
 @property(nonatomic) UITextAutocapitalizationType capitalizationType;
 @property(nonatomic,strong) NSString *placeholder;
 @property(nonatomic,strong) NSFormatter *formatter;
-@property(nonatomic,strong) NSString *placeholderText;
 @property(nonatomic,strong) UIColor *placeholderColor;
+@property(nonatomic,strong) NSString *textFieldPrefix;
 @property(nonatomic,strong) NSString *textFieldSuffix;
 @property(nonatomic,strong) NSAttributedString *attributedPlaceholder;
 

@@ -11,14 +11,13 @@
 #import "BlazeVideoRow.h"
 #import "ViewController.h"
 
-#define XIBVideoCell             @"VideoTableViewCell"
+#define XIBTextTableViewCell    @"TextTableViewCell"
+#define XIBVideoTableViewCell   @"VideoTableViewCell"
 
 @interface ViewController ()
 {
     
 }
-
-@property(nonatomic,strong) NSString *videoURLString;
 
 @end
 
@@ -28,8 +27,8 @@
 {
     [super viewDidLoad];
     
-    //Video url
-    self.videoURLString = @"http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4";
+    //Testing for disappearing - stop video's
+    self.notifyCellsWhenDisappearing = TRUE;
     
     //Load content
     [self loadTableContent];
@@ -44,12 +43,32 @@
     BlazeSection *section = [BlazeSection new];
     [self.tableArray addObject:section];
     
-    //Row Label
-    BlazeVideoRow *videoRow = [BlazeVideoRow rowWithXibName:XIBVideoCell];
-    videoRow.videoURL = [NSURL URLWithString:self.videoURLString];
-    videoRow.videoDisableControls = FALSE;
-    videoRow.videoAutoPlay = TRUE;
-    [section addRow:videoRow];
+    if(self.navigationController.viewControllers.count==1) {
+        BlazeRow *row = [BlazeRow rowWithXibName:XIBTextTableViewCell];
+        [row setCellTapped:^{
+            ViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ViewController"];
+            [self.navigationController pushViewController:vc animated:TRUE];
+        }];
+        [section addRow:row];
+    }
+    else {        
+        //Video-link
+        {
+            BlazeVideoRow *videoRow = [BlazeVideoRow rowWithXibName:XIBVideoTableViewCell];
+            videoRow.videoURL = [NSURL URLWithString:@"http://a1408.g.akamai.net/5/1408/1388/2005110405/1a1a1ad948be278cff2d96046ad90768d848b41947aa1986/sample_mpeg4.mp4"];
+            videoRow.videoDisableControls = FALSE;
+            videoRow.videoAutoPlay = TRUE;
+            [section addRow:videoRow];
+        }
+        
+        //Youtube Video
+        {
+            BlazeVideoRow *videoRow = [BlazeVideoRow rowWithXibName:XIBVideoTableViewCell];
+            videoRow.youtubeID = @"ysGTmXOTUng";
+            videoRow.videoAutoPlay = TRUE;
+            [section addRow:videoRow];
+        }
+    }    
     
     //Reload
     [self.tableView reloadData];

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name           = 'BlazeVideoCell'
-  s.version        = '0.0.2'
+  s.version        = '0.0.3'
   s.summary        = 'Video-cell addition to Blaze'
   s.license 	   = 'MIT'
   s.description    = 'Useful video-cell for Blaze to play videos using AVPlayerViewController'

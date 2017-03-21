@@ -7,162 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00533FDCD3086A112C9E1F71B22CFF0D /* BlazeInputTile.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B6F1B6D765F6FB84766CB365452530 /* BlazeInputTile.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 69C2ECB90B52C6D6AC128FDCCF5EBE9E /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		075BD03B22848B54C3D82D5E1E796EAF /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F81B877E0A5DD5AD5975AA87473D82 /* AFImageDownloader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		07989AB8076E41EE461445AFE79E6D1D /* BlazePickerViewField.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F32576C52328C16846E3CE695C66CC /* BlazePickerViewField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 51818DD086EBFC52FB15482999098764 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		100E6A48B2A3F8A355932AB79246103C /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49884098E6855FF8645D4A3A63F0CEC4 /* AFNetworking.framework */; };
-		13588077AA53AACB9C09D9C9CF627184 /* BlazeImagePickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9F85B448380BEEC9C62274D53D0D3 /* BlazeImagePickerTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		15DF0C04FCE7500B21A2D497C2CDC0FF /* BlazeTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2BF9D56CCAAB4CA0E9613C906C123D /* BlazeTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		169289F7C08A8CE1F7F52F2EE34190F5 /* BDGImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85884C68582A8A8B0EBD879B346E832F /* BDGImagePicker-dummy.m */; };
-		190C94876772A292F9737DDE3C56D35A /* Blaze-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E05753B1718BD8F740B513EC29A99FBC /* Blaze-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B3F47733A58136F5BECDD0850BE8E6C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E2D83086FBA32E44C18907EF2B17AC /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0820B3F5584F7FB9627D734284DFFB42 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2358B80B0D4C40EF1BD452629ED5BB67 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = CB75B462731F1B3B189EADFAFB37B9E2 /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D354A2E84ED6B331AD735E9FD607364 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D8560C1B3349574AE7CE6ED47408DF /* BlazeTableHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 898FE6C16E9A42DB166A139718297CC8 /* BlazeTableHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0434413E94989114F58E200958AE3AD1 /* BlazeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AC297F2ED5FE7A04E66478D45CB7275 /* BlazeTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		075BD03B22848B54C3D82D5E1E796EAF /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EA96E4F44883A806B460953FA155D026 /* AFImageDownloader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0B50C72C2E3CA8838C0508816EB639A6 /* Arrow_Right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 132D6B85043AA2BADC50B446CD9C25FA /* Arrow_Right@2x.png */; };
+		0C5B301FE410C55CE52F555D21765A88 /* BlazeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B250C91A3283668A41A3B0CAC707BA8C /* BlazeTextView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF40235CEC08C17106DA21FA555A1DC /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EF6E497259412A697519EA8FDFE8FC3 /* BlazeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8311465B350AD70FEDAA65B176E29C61 /* BlazeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3A800403D796835A171CE220B5A102 /* BlazeInputTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3873C3231D3863BD50288942FFBCD420 /* BlazeInputTile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		127392FC81C089DE891B677D7719C414 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49884098E6855FF8645D4A3A63F0CEC4 /* AFNetworking.framework */; };
+		169289F7C08A8CE1F7F52F2EE34190F5 /* BDGImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B433661EC1807C57B972424FB6D9914 /* BDGImagePicker-dummy.m */; };
+		1B3F47733A58136F5BECDD0850BE8E6C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8AE7F9CABE4F1F560CC1CA1C3BCD4C /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29E2C771457A069DDEE4B10B6068EB5D /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20ED9CEC3984202ED59D595D9E9918BE /* BlazeTileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 601E60E5A2FD9616B2E18FA6158B511F /* BlazeTileCollectionViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		23CB2F9066D3991172F7B4862ECA79A9 /* BlazeDateFieldProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0E92E8E56C0E1F211DF78697DC0528 /* BlazeDateFieldProcessor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		23EFB184AD12FB1014FFC765CE0D710A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50F3B8E8971EA1C99752B7670F317EB9 /* Security.framework */; };
-		2726370A77FA4CD5E03AB233A7C0F8C0 /* BlazeInputTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 60773CF59108CEC72B905C4A6534DDE0 /* BlazeInputTile.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2888B8205E1FD5E4454D290F43AB073F /* BDGImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C74D6039957D514432962E982292588 /* BDGImagePicker.framework */; };
-		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 161448479AB2149BCA384D4CC6DFB35E /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E75392F692BB064C0E18258D0655782 /* VIMVideoPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A94FC283F345173DE4459EBF8E126DDA /* VIMVideoPlayer-dummy.m */; };
-		30965CE3DBC70D06C78A4FB034E21D64 /* Blaze-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA43EDEB57FB574B3CA0B6E32E78F1 /* Blaze-dummy.m */; };
-		34063CD881B177978DA59F1A69A7956B /* VIMVideoPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46D3799F1097D13C93E4A311A7CAA0B7 /* VIMVideoPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		357E4C3E37DBED692C8B3E8724D8C6EE /* BlazeTwoChoicesTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D6DF8304D53831ED5EDBBFC95FA3A9D /* BlazeTwoChoicesTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 476B82E3BD4EC2FE76DAF338FF652826 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BF0AFF7BACD65A369A253A58C5001AC /* BlazeNSFetchedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 249C28925C5AADD0718069307E0840FF /* BlazeNSFetchedTableViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3E2A722C6CD89E92C6A7958128704265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDF04D2BC41A16DE0D6300314EE70E9 /* Foundation.framework */; };
-		3FC6818BC56F32D413FB4CD917179167 /* VIMVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0B542CEDFA58AF04BA48F0A4F7D058 /* VIMVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25F5A6BE4AB19F4A23AC2CC770FBF1A0 /* BlazeSliderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 420E45CA8E45FF3646FBE1B50D1B3CB1 /* BlazeSliderTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		26244C7F9316FEE2349FB325C02BB5A3 /* BlazeDatePickerField.m in Sources */ = {isa = PBXBuildFile; fileRef = C031BE9265643CC606D136BCAA11B7C4 /* BlazeDatePickerField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2ABA3E4A6DCD2682B0C9D308614EE032 /* BlazeSliderTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6529EA55E3A689B4AEAAC1F1285EFDB5 /* BlazeSliderTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 74760C4D275570478F89933C0C68ED87 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E634F5EDDE4662BB0AD07F33E32219A /* BlazeTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 36705C920A1BFDA1E6737355B9BE70B6 /* BlazeTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EF5FDB2BBC80126D64AF74552A85890 /* BlazeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3595ADBCCA91BA5C65D5ECAAC1E824AE /* BlazeViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2F27807CA5F78162CACE4451F6943D91 /* BlazeDatePickerField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC3A3F6A4370CA6957F830AA9ECB8B9 /* BlazeDatePickerField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FCB2E8B83FAB8F1086EC4C633A2EDD4 /* Blaze-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B00812792EE64F01DBA1715E7FCCF36 /* Blaze-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3403536B520DA75DD432D05DBE5B0084 /* NSObject+PropertyName.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E7AFA02FA53A5EFF934FB750FD72C82 /* NSObject+PropertyName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A570DE9A0FB64526897A16B5E27770F7 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39F26D44DC2D3B63E0DA258E58066315 /* NSObject+PropertyName.m in Sources */ = {isa = PBXBuildFile; fileRef = 362BA74D4F74B48019EA6C5CB499FA0D /* NSObject+PropertyName.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3BDB6F96188DE198013985448849A3E9 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = E52B23C4E2A2D0C87001E32F88D46286 /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3C975B7504D946C0CA6C53DC53E55858 /* BlazeImagesScrollTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E38C0D1987DEBA366230D96DF791E88 /* BlazeImagesScrollTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4058572FDCED4572C99F9274CD6D670C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDF04D2BC41A16DE0D6300314EE70E9 /* Foundation.framework */; };
-		413A7D4623004DD3DBD888B4CDB8F07A /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E15845A9271107E820DE27172C111A7B /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		42D835B2DE4CC8DC8560BC731AF319EA /* BlazeTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7468C079ABEA38C39955100AF3AD3902 /* BlazeTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4339C89DF5B653B75CD11F4E619AD957 /* BlazeTwoChoicesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F09241DCAD6D48A4DAA8D2347DDBBE /* BlazeTwoChoicesTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		43BBDF9D05E91AEAFFDE8A9790F7F890 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BE102560B1D2F4387A1D7987121C8EA5 /* AFHTTPSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 38FC62A38BCE7A974C850E5CB60D2BD4 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		455C3561EE4A831049FB8A04CA79894F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 361B3AAB72FA3C57EED70C38EAB60CA4 /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC7E8FB55CD557ADCBEE182C51A5BBC /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46A45325921A22AAAE2AC187C79799FF /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A6460C2843438F2C475A97F043DAE510 /* UIProgressView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFD6157D85695BC60E8240FE73AC715 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A5446E158D86E0C6336E43C6FCAFD79 /* BlazeSegmentedControlTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8DFBAB7B1187C60D96DDC447056BF9 /* BlazeSegmentedControlTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4CAF542EF4397DAB33C2F08B9263858A /* BlazeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEB147CAD71165C97C078E167B950FA /* BlazeTextField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4EE3BD6F91C2EEDDE9FA1E2CD4B23F07 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 62741CA9B08D9AB42C702ABBA7FAF2E2 /* AFAutoPurgingImageCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E17870A19A6150DD28B41B3E7A812758 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		573C74898228FFEC7742FD3BAD6D25E1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB8419F090981EEE3900DB83FCD785E /* UIWebView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5BBA05606A0D875C833728A6CE5E2F50 /* BlazeRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8985B9B8D8D53E39FA67710F4BB8BE /* BlazeRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C10D0BCD6FBEBA8805A5D5C34707B78 /* BlazeNSFetchedTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F64D5AFB1321B864345FA72C266872D /* BlazeNSFetchedTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FA28AAD0C6DFF0273FFDA245A286FA0 /* BlazeCheckboxTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FBB26E0E7152BC1D06E0BF9FD7A29F5 /* BlazeCheckboxTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FEDA1B3EF03ADCD9C1501ACD4801F25 /* BlazeRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9293F849D1A869C548FBDD73E8091E2A /* BlazeRow.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		60E1BD88B7F2CB8B3ED3DABC67DAF73F /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5022D26DA716992DE0A9B3B2723157B8 /* UIButton+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6491C0A637E28B0B954AEC5AC31ABBDE /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4133E7057FBECFDF5AD9616FFFC624 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68C24AEAC26E5416417B405FBB837F52 /* BlazeTextViewTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D46C0ED20876B89871DF32EC2DA7F77D /* BlazeTextViewTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C309D491A8B526AA376FD9ED99A2828 /* BlazePickerViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B55776953B6AC4178648B89C3237B9D /* BlazePickerViewTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		71BD9DDF801E8724AD4F0053DC0A43F9 /* BlazeTilesCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA2A866B9E5F16FD4031D353B1C28C4 /* BlazeTilesCollectionView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		413A7D4623004DD3DBD888B4CDB8F07A /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FDA1A685176B226BF840708AAFF4BB /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		41EE744FF2D1599DEF3F9647E187AEE7 /* BlazeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 59E1294C3B7C01C930F91AF463045714 /* BlazeTextField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		43BBDF9D05E91AEAFFDE8A9790F7F890 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 239A4DDC8506AA33D1C674B9EF57B30E /* AFHTTPSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 075AD4BF98570F9F0A016EAC020C724C /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		455C3561EE4A831049FB8A04CA79894F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BF13C4DCB46F32C2A1D4E19D5501BB /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC42ADD0F747C7BA43EF9396678D5B4 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A45325921A22AAAE2AC187C79799FF /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E133769106F030F94EF7E7A126E66FB /* UIProgressView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB2146F3D0CD8476B3B7779531BB1B7 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4895D18022E25A29B0780CCC592583F6 /* BlazeTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = A9104E1AF5E4EDFF0043F59545103C06 /* BlazeTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ACFDD9659A60B649321B8CB732E51A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDF04D2BC41A16DE0D6300314EE70E9 /* Foundation.framework */; };
+		4EE3BD6F91C2EEDDE9FA1E2CD4B23F07 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4C1B8250B3641B8E0D0B7F99543F79 /* AFAutoPurgingImageCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FB0CAECC85006AC180AEE3F8BFBCBAEA /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51BDFAEB1ACBCD8DC94F3627230C9F34 /* BlazeTwoChoicesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A2F19A10716B5C5BED0CC6DBB95F02 /* BlazeTwoChoicesTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		55795B98FFF4861227F130124996B1BE /* BlazeTileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CB95083B31C5A8529F73769B8DA32A4 /* BlazeTileCollectionViewCell.xib */; };
+		573C74898228FFEC7742FD3BAD6D25E1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C198F1F41B8D4E157DEA0C77F2016D8 /* UIWebView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		58906AAFD7806CACFBD59823BA66F524 /* BlazePickerFieldProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E4C9D752C568BF45E3D4C758BD3FA41 /* BlazePickerFieldProcessor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5B7C363ED8469F3DDA05B796DCEB3A6F /* BlazePickerFieldProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C63C293F371477F440534A586113D5 /* BlazePickerFieldProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60B061A64FB79F1BBA488888A176515E /* BlazeCheckboxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 204F9BB1B253F45E06EE7596E5A017C4 /* BlazeCheckboxTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		60E1BD88B7F2CB8B3ED3DABC67DAF73F /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7C67F032456B6160EA5D75160E1CD5 /* UIButton+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		64A0058E3B93573C568CFC990C6CC3EC /* BlazeDateFieldProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B48608F4D38BAC672812B3B61B865F /* BlazeDateFieldProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = ED01D3ACABDC678D9B1D977E20EB697B /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69B49D606609B8B33CDF3327B0B8D60C /* BlazeImagePickerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = ACAD65327F06163087615D2ABD5072F6 /* BlazeImagePickerTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72BE65E696A388D4CC0D75BE461FEF1B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9417FF297455DACE3DED5E6CFF67AE /* MobileCoreServices.framework */; };
-		74B4A65A9F01B23F9CB35B23043D7815 /* BlazeTableHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DDA57A418FE690E6D76CA0C56F0D117 /* BlazeTableHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		75B90769036C96B9252FF7EA7513A69A /* BlazeSliderTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 85528E2FAE5109675C1E01AE9F7E4CBB /* BlazeSliderTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		793A216418699C374B97DB58B38CB33B /* BlazeTextFieldTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C460B531339B3F258DBC202F6073C58 /* BlazeTextFieldTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 400E2D8EE76AFC561B0BECA04F6C7148 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7A7CEF6807D3D746958DA2DF8118BEB2 /* BlazeDateTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA0EC51B6F6510AD58E7586D7A3E947 /* BlazeDateTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B3F6EA286F1D403B6F2570B434443A7 /* BlazeImagePickerTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E2B289D854282616859105C3F91D23 /* BlazeImagePickerTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B4AC4C8749BEFA1B9C87AD0D6E8A6F8 /* BlazeSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B8AA25E375A1314A286EAB9F810FA80 /* BlazeSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E43A3DE9BF4A8CE52E7EE0349410B46 /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = 53F59ACA88752C247F4F458F2575100C /* NSString+TextDirectionality.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E56D70D7211327569ED55A6741156DF /* BlazeTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D41D4A461A87D76E259F99DCFB5F7A7 /* BlazeTextViewTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7F1519199EA11DF75AF03FC9CE6F047D /* BlazeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A707B07517BC6D38E60A266BFC623640 /* BlazeTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7FACB3127164D20C3179DF9578E76CED /* BlazeDatePickerField.h in Headers */ = {isa = PBXBuildFile; fileRef = 82F7FE0E1CF5133E4383C61CD514D5A1 /* BlazeDatePickerField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C884AEBE10258895873C643AD602F92 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = B22DEFF5D722B34171056F87C2C12B3E /* NSString+TextDirectionality.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9127D89AC0EC70053D36AE813996E2FA /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A0D60C36A3C63A9D7083142C9B97AD /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E273EEC08322B042AB555604A2502E89 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95FC0FEF5ADF047CB051976738B67239 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5975C926F4D05858D83DFEB63B5FB087 /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9716B9D8E67ED9309345704E3E7630D6 /* BlazeSliderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E22A1CD087FA49EE27A56B28A5C5CF6F /* BlazeSliderTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9AAEFCB151DF1A836FC4E61195B5E64C /* BlazeTextFieldTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A0481856CB2FC38B97C6E07C3A96E257 /* BlazeTextFieldTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B058F2BA33B8C790A593DCA773EC691 /* BlazeDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02AE26EAA36CB54BC4750258BA3368BF /* BlazeDateTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9B2827FA25854544F98421CF0C949668 /* BlazeTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 901C3EBB7FDF70CF227EC83AD0633D8D /* BlazeTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B5A38048A2D37BE82034B41EA6580ED /* BlazePickerViewField.h in Headers */ = {isa = PBXBuildFile; fileRef = A63034D9C32FF3FB0DD2B75CEA0A7465 /* BlazePickerViewField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FF72CF42A9970649E6C550CF5FC2D73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDF04D2BC41A16DE0D6300314EE70E9 /* Foundation.framework */; };
-		A08CEFACABF2C44E007A9204E2D653D8 /* BlazeSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A595102AEE21FEA328A21CB54476CF8 /* BlazeSection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A2A1FF2CC3D13F932215ED33FA3F462B /* BlazeTilesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D82B4B80D4488D8302F6FA4B8AB09E2D /* BlazeTilesTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A3A0157362BB3FFDE5D3184833FC192D /* BlazeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9EAED6FBC141958EDE7F278E188E84 /* BlazeTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A448AD2E7B7F771F9B4302511437E535 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DCCED4501DE6FDE4C2A95DC29375D4 /* AFNetworking-dummy.m */; };
-		A67B92A6D7E6264A505684F3234508CD /* BlazeSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5DAC2CDA694EC5E7A0834B555E52BF /* BlazeSwitchTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AB6B93DF3547859C2DC13EAE182C05E8 /* VIMVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB5171C5EC52F7F0E2967A3F2B3B4F88 /* VIMVideoPlayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AD60E25C00086C05EBAE614736225965 /* BlazeTileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C0E93678CA92553D5B4B5395018CA3D /* BlazeTileCollectionViewCell.xib */; };
-		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC7DBB3184ED9E51DBE8A5252455E4F /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0A4014A5330FB73793C5FBF8FE1E092 /* Arrow_Left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 08FA7C4412CDE9567EBE479E46651076 /* Arrow_Left@2x.png */; };
-		B1C44B877A4CFE9D744EC90237C57C1D /* NSObject+PropertyName.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA28EA6B4575D5A851E1EC1A0E9F3EA /* NSObject+PropertyName.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B4A29D2F53B9C447B1587067B9D5D254 /* BlazeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCD36F80DC2E3E96B076E5F6CBA02BE /* BlazeTableViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B536E84AC07BB222AAB08695EA11D26E /* BDGImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD0D590B3DBED43431E386D158F1B83 /* BDGImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5D24449318A1847CE96EF8483DB4BA9 /* BlazeTileCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DE52494ADD999E6037030E5D684BEA87 /* BlazeTileCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B82E5F92C6C2C65F88EB02617FB7F66C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A102A825E1A1246FF3A67D1416E1A6FE /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		BA2ABE5C352CB59C8047DA1CF46C9528 /* BlazeCheckboxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA2549E822A76C9C28063FC70E7686 /* BlazeCheckboxTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		76A6C251861DBCE871C399C4C3C541E3 /* BlazeTileCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B28564AE51D00E4AC9EFDD45E8D0A774 /* BlazeTileCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3142348C28CC745971FEAC0CF37D6661 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80ACB8A8AAC0C424C354CA2DC4C7A6D2 /* Blaze-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D7DAA1CB2F6EF57C98A2CBEF801407 /* Blaze-dummy.m */; };
+		8F74E24A733322D528A31DF2D33F8CCA /* BlazeTilesTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E3A9C479D2927A15E8A6CEBB927394 /* BlazeTilesTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9162DED1328AFDFBD13FFCAE470C7DFC /* BlazeTextFieldProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E5706CC3DC39ED60CF47C71F520114 /* BlazeTextFieldProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D6BC42DF4171B53CADE4AF476BD829 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F896DD1D606344BDF9F81E7EB65C3C5 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 62D8110783A8686710E15E28ACA4194D /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95769E80B0E9D51C548AFBD9BB2310F2 /* BlazeImagePickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E897A2FCC5E4C3CFA7E6FB340BA032 /* BlazeImagePickerTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		95FC0FEF5ADF047CB051976738B67239 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E6A8793DCD4BD4895CB32E48868E61 /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9665C6ADB887796F0809DAAD0BACA976 /* BlazeTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1985351DA963046092485F4C23199027 /* BlazeTableHeaderFooterView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		990BE82C0A9D1370E91780D750F069E4 /* BlazeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9498B292A0F4EA56FDB590B085C276B9 /* BlazeTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C202A00355E2A0EDB1D32C604AF1A8D /* BlazeRow.m in Sources */ = {isa = PBXBuildFile; fileRef = ADEEA5DE04A927614BBAEA754A90F8FA /* BlazeRow.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9D143ED49CBF0554167C6BF7CE3A7790 /* BlazeSwitchTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A3AADC8E3FE48C87534FB17F2C38A3 /* BlazeSwitchTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D81998BB6E95C0F6EF84035BF4159D7 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */; };
+		9DD1B02955EAC9E38E4B93FF94FA32CA /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 9747E717464486196E67DEE450C41D9E /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A29FDDB255F0DF42F803D79E8A740FFB /* BlazeSwitchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5815EC68DF9C9D1B09948020C9771DD /* BlazeSwitchTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A3F410570E3E5A78176A64CD5FCCF180 /* BlazeTwoChoicesTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D4025BCF65AB8F0A8F730CFF554771B1 /* BlazeTwoChoicesTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A448AD2E7B7F771F9B4302511437E535 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8389436DE828558F14B67EDFB06BF1 /* AFNetworking-dummy.m */; };
+		A747D00115833F9379983D02A9DC8B95 /* BlazeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87BF06BAF9B4F058B74A0A2EF099D65 /* BlazeTableViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A75903EDD785FD445AB0EA4FA0AA6806 /* BlazeSegmentedControlTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BB22F8647FBE071D383E3D0BE787727E /* BlazeSegmentedControlTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9BAFB0B5F336D41B7758711408F1B9F /* BlazeTilesCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = F0C4CF9B21F1178C480D8D70075557C9 /* BlazeTilesCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A8929F943E647CC9DEF4662C618E65 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C998492BDDB2D8A02D657E866957DC /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A8DEE41A0D225AB7AE058A0C6F1242 /* UIScrollView+EmptyDataSet.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B37C5486D2A85B31237C6E6EA61B4E46 /* NSString+TextDirectionality.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E24E854745F3148EE74AA0705B85F0 /* NSString+TextDirectionality.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B536E84AC07BB222AAB08695EA11D26E /* BDGImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB1401344AF23431836BBDFD049BC85 /* BDGImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B82E5F92C6C2C65F88EB02617FB7F66C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C415B326991BE169E16AA565B999B /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		BA2D29D9265012FAC7A88D9A8CCD9989 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 775C6CDA2C88AE8D4046F660C124F66A /* CoreGraphics.framework */; };
-		BAE105EC4338B199579C0448B8524A8A /* BlazeTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D54DF695B75DDE15BAACBF26E1AD0E /* BlazeTableHeaderFooterView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BA8BC15883AEB70551833E5E3AD5DB6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDF04D2BC41A16DE0D6300314EE70E9 /* Foundation.framework */; };
+		BC0AC889F2238372B9466D40F95C71FF /* BlazeNSFetchedTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 21E844F78ED3632325056F4037F10F7E /* BlazeNSFetchedTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC22E83FBE012D2A1B6B72B886832AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDF04D2BC41A16DE0D6300314EE70E9 /* Foundation.framework */; };
-		BE5E783ECE33ABE5D3A75B1C82D69B66 /* BlazeTilesTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C4DAF5B2F6728D43070E05B04BDFE3BB /* BlazeTilesTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C62CEBDFFE085D648853CC4DCF866DE7 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F05DD59F5E796AF045205C74822AF21 /* UIRefreshControl+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C63859C314A41C0B13B8823123A8F11E /* VIMVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEE96247B73CC3E28639C9762358B40A /* VIMVideoPlayerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C9EEDB9F9C1B8E3DE40461413C2ADB9F /* BlazeDatePickerField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1173A859A432507376953B3F00B9480F /* BlazeDatePickerField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CB0D2D2EA1A6AF0449C9FA37C621EA33 /* NSObject+PropertyName.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B57F62E0C0AA782C4EC532C1DB35D66 /* NSObject+PropertyName.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE15ED34E516492B692295B8152D14F0 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C155A38D02730077C091D868A67BC /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BCEBE73168D7B826E3012F1A06AF570A /* BlazeImagesScrollTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E260A81BB8F00A69C1309E653F17308 /* BlazeImagesScrollTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A0B2D4B4E94F463B24073D66E4DCA5 /* BlazeTextViewTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D83CA10902BA79D148E62CFD45B89E /* BlazeTextViewTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C250833DAC9FAAFAD3C2C47DE7D1BA79 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C370F9F9CF00E5C593F77DC1E5346214 /* BlazeSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 75DBC911312D0F87A8DD4E3458C4174F /* BlazeSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C62CEBDFFE085D648853CC4DCF866DE7 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8304EAA43AAF0A4A964D0AE30B928F79 /* UIRefreshControl+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C6332E37AF648D6E71DB9A8069567626 /* BDGImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C74D6039957D514432962E982292588 /* BDGImagePicker.framework */; };
+		CE15ED34E516492B692295B8152D14F0 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A244E07C9E26C9189EE504825FB390BD /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		CE2EB8CE3176F8A1FAA78CC8786292CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B397958E7719AFEF36F21EE1DFEFA00 /* SystemConfiguration.framework */; };
-		CE883C64D82FD9F3AE502ABC1213898F /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D788DD776AE19D3CED9F8D112542582 /* UIScrollView+EmptyDataSet.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D3DB1F7518CA3E6313DE750A9B50AF5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDF04D2BC41A16DE0D6300314EE70E9 /* Foundation.framework */; };
-		D943B8B27D74B585C23F1F1E1576D26B /* BlazePickerViewTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F94BD4192D7544242602B47EE4EC48C /* BlazePickerViewTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAAB6AC9822A729BE8EF5D842186165A /* BlazeTilesCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = EF460B2F3B11A4A8B89E8B1138931CCD /* BlazeTilesCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DCB8200A94B3352B9B252E8B8B0F6E4A /* BlazeSegmentedControlTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C558A7FB0809113791456944BDF43D /* BlazeSegmentedControlTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CA92CD947E1C0A75D58516149A08459C /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2810F172905BE3FE06CD6A7F84349EB /* BlazeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F94F5795FE998585815BAF0B3797FB /* BlazeTextView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E524D6FE1036EE7492422F895E7DB1FB /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 444EA7CD54307C97A85A7863BB5984BB /* UIActivityIndicatorView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		ECE6ED1263DD03B51656B16039567EF6 /* BDGImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B68B6759E3B2D3CDD0BFF9DB13E56F /* BDGImagePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EE3E4EA44FA96A5930FCEF7044D3AB5E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBA0472D6BD848A9ABDA8C5ED2239F5 /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EF1A2B56B8253717F9F1344D0145FDB8 /* BlazeTileCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BA3BD68B812599E0F4BE220B503060 /* BlazeTileCollectionViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 1301DB47A8D9A4E1F3D2FE7634B68E76 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2591FBA39F758A9BACB122307112384 /* Arrow_Right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E96F23710C032E960BD63B96130369E3 /* Arrow_Right@2x.png */; };
-		F30C387AEDC738C09F30A4B5F377AF18 /* VIMVideoPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 274950D3B62053F1B84CAD08D77407E0 /* VIMVideoPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F78B99AFB7EFA61C6B30BE62700E3888 /* BDGImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6978EA12776D674569C87BA2B8DC46 /* BDGImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8094511B5699A84E6E8C653657F4986F /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9CCA0C5EFC79F282469ABF2624B77E1 /* BlazeSwitchTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AE53FA9B6387C80661A2FB9474211C /* BlazeSwitchTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE9351F81C1E4F58A0A5E107B35E31E2 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */; };
-		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 852D5827E4988309AE3FC8779D9DAFEE /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF7FBC61EB66CD7B93E15E5B6726E1D1 /* BlazeTilesCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CE1158F988F420E80EA6F87EE6680A /* BlazeTilesCollectionView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D984F9BF33936BFD6717882E76667A8D /* Arrow_Left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9734A8EC61F71B9B0310B854E7983B46 /* Arrow_Left@2x.png */; };
+		DAC1E9AC5B9E59AD99379543D7E3B781 /* BlazePickerViewField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B7703D19DB1DD44C583039B82C11E6A /* BlazePickerViewField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DEE35603A08745CD42BCC9E370A61364 /* BlazeTextFieldProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 10CE33AE8EE16708C5B642236773BE32 /* BlazeTextFieldProcessor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E18E72BBE42CFEB647E21C17C98B1138 /* BlazeCheckboxTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD14A6FF06C81E511B1CAC88E252862 /* BlazeCheckboxTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F5F80852E7FAB34C7F932C8EC854B7E /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E280981C219484FFB91335F1C393139F /* BlazeSegmentedControlTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6B61BFA9B5C4A9DED22CD92E047D485 /* BlazeSegmentedControlTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E2D0E222FABE29A0143E8910A94FCE63 /* BlazePickerViewField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5041AB6D64008D69BA2355541FE8B683 /* BlazePickerViewField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E524D6FE1036EE7492422F895E7DB1FB /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E65B73619A62528BF5B2A80F048447 /* UIActivityIndicatorView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E93EAEBAB1C8DEFCF3D880E21748E41C /* BlazeInputTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A52A3C933444F7095FA3E7FE180A6E6 /* BlazeInputTile.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EC13F7896034DD5BAA0232FDE689D663 /* BlazeFieldProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2431667656123E71B170D5DAEA5B19C9 /* BlazeFieldProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECE6ED1263DD03B51656B16039567EF6 /* BDGImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2342954704EC4FF703525C2CEA03FB37 /* BDGImagePicker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EE3E4EA44FA96A5930FCEF7044D3AB5E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3D6B5B1E81D351D6E6B76A5FB53E7 /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F15AE6AC58CE3BBB10D085E625661607 /* BlazeFieldProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 20503BC6DA87AB7B7DB631E5C6BDDD1C /* BlazeFieldProcessor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF80896BA3CFF38B4BA50E41E451A83 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3B8BD4F7A49FC31127F4B8D9C88C9AA /* BlazeRow.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF0F618A6201FCF3DEB69CD4DC578F8 /* BlazeRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3F4FE4C694D9E96E3EB88C77AC84806 /* BlazeSection.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA581C815BB9D80553FEFA8C497AD49 /* BlazeSection.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F45EF9C05E29182E63EDD506D59896AC /* BlazeTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F1DAF7D4FDF42D3E61457469B619337 /* BlazeTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F47542BFCA1982FA9CB03D9D1F16D142 /* BlazeNSFetchedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B94275EC076D20345B618519B75091CC /* BlazeNSFetchedTableViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F78B99AFB7EFA61C6B30BE62700E3888 /* BDGImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 140ED78276BECEB6C3AE2FA2F6AA10DD /* BDGImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 00CFF5AE78EA43ED8D3DF9995C10EB6B /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB96CB84FFB4CC6AA6C880FAF868CEC /* BlazeTextViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F5DF7AB048F3B75ACF6A255E0E31662 /* BlazeTextViewTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FAF1DDFB9A09E8539F06AFB8963B6117 /* BlazeTilesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 483CAC82CF8A180BD6D0DCCE39985BE0 /* BlazeTilesTableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B3AA3D8FFB2B2C839584A684679E4C /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		579BDE8E42A3BEF899AF7A775350B4EE /* PBXContainerItemProxy */ = {
+		733CB11053338C2C3A9F8CBBCFE74F25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 583690FE85E737A66E8DFF1CA577349A;
+			remoteInfo = Blaze;
+		};
+		77F1A39BEDDCF2852E1025A65DE078F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D9422A701CE478839F943E072527874;
+			remoteInfo = BDGImagePicker;
+		};
+		E28F4ED5DBDFA55408FB98979694E21D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CF671F7E57B92905F1CC91D036D6B4A7;
 			remoteInfo = AFNetworking;
 		};
-		879CF9C3ABA22639415191F50BF73A22 /* PBXContainerItemProxy */ = {
+		F866548A1E5460AC7E18978D4444AB6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8D9422A701CE478839F943E072527874;
 			remoteInfo = BDGImagePicker;
 		};
-		CFD4F2173ADC7DA0F1349C3F4CD10341 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8D9422A701CE478839F943E072527874;
-			remoteInfo = BDGImagePicker;
-		};
-		D0A9C7C86EE85CF921FF767A91E0DF45 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FBF56660E046FAFA8CB4ABF56A82E665;
-			remoteInfo = Blaze;
-		};
-		DAC353A729B0807F150C296FD1650316 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D22538DB0C38D029364C7220E0CEB12B;
-			remoteInfo = VIMVideoPlayer;
-		};
-		F6113F78A049E2EE9CB72871206F38A2 /* PBXContainerItemProxy */ = {
+		FDA025421BBC122CF626A5F9F8CB5DFD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -172,153 +164,156 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00A0D60C36A3C63A9D7083142C9B97AD /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		00CFF5AE78EA43ED8D3DF9995C10EB6B /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		01E6907CF2644EB1CF8E23F708A3DA0B /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		02AE26EAA36CB54BC4750258BA3368BF /* BlazeDateTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeDateTableViewCell.m; path = Blaze/TableViewCells/BlazeDateTableViewCell.m; sourceTree = "<group>"; };
-		0820B3F5584F7FB9627D734284DFFB42 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		08FA7C4412CDE9567EBE479E46651076 /* Arrow_Left@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Arrow_Left@2x.png"; path = "Blaze/Resources/Arrow_Left@2x.png"; sourceTree = "<group>"; };
-		0A595102AEE21FEA328A21CB54476CF8 /* BlazeSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeSection.m; path = Blaze/Objects/BlazeSection.m; sourceTree = "<group>"; };
-		0D6DF8304D53831ED5EDBBFC95FA3A9D /* BlazeTwoChoicesTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTwoChoicesTableViewCell.h; path = Blaze/TableViewCells/BlazeTwoChoicesTableViewCell.h; sourceTree = "<group>"; };
-		0D788DD776AE19D3CED9F8D112542582 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Blaze/Categories/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
-		0EA28EA6B4575D5A851E1EC1A0E9F3EA /* NSObject+PropertyName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PropertyName.m"; path = "Blaze/Categories/NSObject+PropertyName.m"; sourceTree = "<group>"; };
-		1173A859A432507376953B3F00B9480F /* BlazeDatePickerField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeDatePickerField.m; path = Blaze/TextFields/BlazeDatePickerField.m; sourceTree = "<group>"; };
+		05E897A2FCC5E4C3CFA7E6FB340BA032 /* BlazeImagePickerTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeImagePickerTableViewCell.m; path = Blaze/TableViewCells/BlazeImagePickerTableViewCell.m; sourceTree = "<group>"; };
+		075AD4BF98570F9F0A016EAC020C724C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		0AC297F2ED5FE7A04E66478D45CB7275 /* BlazeTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTableViewCell.m; path = Blaze/TableViewCells/BlazeTableViewCell.m; sourceTree = "<group>"; };
+		0B7703D19DB1DD44C583039B82C11E6A /* BlazePickerViewField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazePickerViewField.m; path = Blaze/TextFields/BlazePickerViewField.m; sourceTree = "<group>"; };
+		0C4C1B8250B3641B8E0D0B7F99543F79 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		0CB95083B31C5A8529F73769B8DA32A4 /* BlazeTileCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BlazeTileCollectionViewCell.xib; path = Blaze/CollectionViewCells/BlazeTileCollectionViewCell.xib; sourceTree = "<group>"; };
+		0E38C0D1987DEBA366230D96DF791E88 /* BlazeImagesScrollTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeImagesScrollTableViewCell.m; path = Blaze/TableViewCells/BlazeImagesScrollTableViewCell.m; sourceTree = "<group>"; };
+		0E703CE0616107E248F8B043B7D8D15D /* Blaze.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Blaze.modulemap; sourceTree = "<group>"; };
+		0F5DF7AB048F3B75ACF6A255E0E31662 /* BlazeTextViewTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTextViewTableViewCell.m; path = Blaze/TableViewCells/BlazeTextViewTableViewCell.m; sourceTree = "<group>"; };
+		10CE33AE8EE16708C5B642236773BE32 /* BlazeTextFieldProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTextFieldProcessor.m; path = Blaze/FieldProcessors/BlazeTextFieldProcessor.m; sourceTree = "<group>"; };
 		119072C64A19799964E1620D83F514FB /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
-		1301DB47A8D9A4E1F3D2FE7634B68E76 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		132D6B85043AA2BADC50B446CD9C25FA /* Arrow_Right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Arrow_Right@2x.png"; path = "Blaze/Resources/Arrow_Right@2x.png"; sourceTree = "<group>"; };
+		13CE1158F988F420E80EA6F87EE6680A /* BlazeTilesCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTilesCollectionView.m; path = Blaze/CollectionViews/BlazeTilesCollectionView.m; sourceTree = "<group>"; };
+		13D6BC42DF4171B53CADE4AF476BD829 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		140ED78276BECEB6C3AE2FA2F6AA10DD /* BDGImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDGImagePicker-umbrella.h"; sourceTree = "<group>"; };
 		149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		161448479AB2149BCA384D4CC6DFB35E /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		1D41D4A461A87D76E259F99DCFB5F7A7 /* BlazeTextViewTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTextViewTableViewCell.m; path = Blaze/TableViewCells/BlazeTextViewTableViewCell.m; sourceTree = "<group>"; };
-		1D8DFBAB7B1187C60D96DDC447056BF9 /* BlazeSegmentedControlTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeSegmentedControlTableViewCell.h; path = Blaze/TableViewCells/BlazeSegmentedControlTableViewCell.h; sourceTree = "<group>"; };
-		1D8FD91994FCCFDE88DCFBE3019B66A7 /* BDGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDGMacros.h; sourceTree = "<group>"; };
-		1F05DD59F5E796AF045205C74822AF21 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		20FFE674F4DE8AFCCCED9A32E763EB99 /* BDGImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BDGImagePicker.modulemap; sourceTree = "<group>"; };
-		249C28925C5AADD0718069307E0840FF /* BlazeNSFetchedTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeNSFetchedTableViewController.m; path = Blaze/BlazeNSFetchedTableViewController.m; sourceTree = "<group>"; };
-		274950D3B62053F1B84CAD08D77407E0 /* VIMVideoPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMVideoPlayerView.h; path = "VIMVideoPlayer-Source/VIMVideoPlayerView.h"; sourceTree = "<group>"; };
-		2C0B542CEDFA58AF04BA48F0A4F7D058 /* VIMVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VIMVideoPlayer.h; path = "VIMVideoPlayer-Source/VIMVideoPlayer.h"; sourceTree = "<group>"; };
-		2C8C155A38D02730077C091D868A67BC /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		35B68B6759E3B2D3CDD0BFF9DB13E56F /* BDGImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDGImagePicker.m; path = BDGImagePicker/BDGImagePicker.m; sourceTree = "<group>"; };
-		361B3AAB72FA3C57EED70C38EAB60CA4 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		38FC62A38BCE7A974C850E5CB60D2BD4 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		3B9EAED6FBC141958EDE7F278E188E84 /* BlazeTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTableViewCell.h; path = Blaze/TableViewCells/BlazeTableViewCell.h; sourceTree = "<group>"; };
-		3D4133E7057FBECFDF5AD9616FFFC624 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		3FFA2549E822A76C9C28063FC70E7686 /* BlazeCheckboxTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeCheckboxTableViewCell.m; path = Blaze/TableViewCells/BlazeCheckboxTableViewCell.m; sourceTree = "<group>"; };
-		400E2D8EE76AFC561B0BECA04F6C7148 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		444EA7CD54307C97A85A7863BB5984BB /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		46D3799F1097D13C93E4A311A7CAA0B7 /* VIMVideoPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIMVideoPlayer-umbrella.h"; sourceTree = "<group>"; };
-		476B82E3BD4EC2FE76DAF338FF652826 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		1985351DA963046092485F4C23199027 /* BlazeTableHeaderFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTableHeaderFooterView.m; path = Blaze/TableViewHeaders/BlazeTableHeaderFooterView.m; sourceTree = "<group>"; };
+		1B4143AB5BE0C040336376D6D8E84A19 /* BDGImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDGImagePicker.xcconfig; sourceTree = "<group>"; };
+		1D354A2E84ED6B331AD735E9FD607364 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		1EC3A3F6A4370CA6957F830AA9ECB8B9 /* BlazeDatePickerField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeDatePickerField.h; path = Blaze/TextFields/BlazeDatePickerField.h; sourceTree = "<group>"; };
+		204F9BB1B253F45E06EE7596E5A017C4 /* BlazeCheckboxTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeCheckboxTableViewCell.m; path = Blaze/TableViewCells/BlazeCheckboxTableViewCell.m; sourceTree = "<group>"; };
+		20503BC6DA87AB7B7DB631E5C6BDDD1C /* BlazeFieldProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeFieldProcessor.m; path = Blaze/FieldProcessors/BlazeFieldProcessor.m; sourceTree = "<group>"; };
+		21E844F78ED3632325056F4037F10F7E /* BlazeNSFetchedTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeNSFetchedTableViewController.h; path = Blaze/BlazeNSFetchedTableViewController.h; sourceTree = "<group>"; };
+		22C63C293F371477F440534A586113D5 /* BlazePickerFieldProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazePickerFieldProcessor.h; path = Blaze/FieldProcessors/BlazePickerFieldProcessor.h; sourceTree = "<group>"; };
+		2342954704EC4FF703525C2CEA03FB37 /* BDGImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BDGImagePicker.m; path = BDGImagePicker/BDGImagePicker.m; sourceTree = "<group>"; };
+		23512A33792DC04799303E4A08EF8186 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		239A4DDC8506AA33D1C674B9EF57B30E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		23E65B73619A62528BF5B2A80F048447 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		2431667656123E71B170D5DAEA5B19C9 /* BlazeFieldProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeFieldProcessor.h; path = Blaze/FieldProcessors/BlazeFieldProcessor.h; sourceTree = "<group>"; };
+		261F62986E1207410D0B03C2EB046569 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		29E2C771457A069DDEE4B10B6068EB5D /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		2BE13E63F1206CBD643D4131D2464463 /* Blaze.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Blaze.xcconfig; sourceTree = "<group>"; };
+		2C48A82C360BE03C69E16CC7DDD0B1D4 /* BDGImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BDGImagePicker.modulemap; sourceTree = "<group>"; };
+		3142348C28CC745971FEAC0CF37D6661 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		3595ADBCCA91BA5C65D5ECAAC1E824AE /* BlazeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeViewController.m; path = Blaze/BlazeViewController.m; sourceTree = "<group>"; };
+		362BA74D4F74B48019EA6C5CB499FA0D /* NSObject+PropertyName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+PropertyName.m"; path = "Blaze/Categories/NSObject+PropertyName.m"; sourceTree = "<group>"; };
+		36705C920A1BFDA1E6737355B9BE70B6 /* BlazeTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTextField.h; path = Blaze/TextFields/BlazeTextField.h; sourceTree = "<group>"; };
+		36E6A8793DCD4BD4895CB32E48868E61 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		3873C3231D3863BD50288942FFBCD420 /* BlazeInputTile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeInputTile.h; path = Blaze/Objects/BlazeInputTile.h; sourceTree = "<group>"; };
+		3EA3D6B5B1E81D351D6E6B76A5FB53E7 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		3F5F80852E7FAB34C7F932C8EC854B7E /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		3FB1401344AF23431836BBDFD049BC85 /* BDGImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDGImagePicker.h; path = BDGImagePicker/BDGImagePicker.h; sourceTree = "<group>"; };
+		420E45CA8E45FF3646FBE1B50D1B3CB1 /* BlazeSliderTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeSliderTableViewCell.m; path = Blaze/TableViewCells/BlazeSliderTableViewCell.m; sourceTree = "<group>"; };
+		445C415B326991BE169E16AA565B999B /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		46E3A9C479D2927A15E8A6CEBB927394 /* BlazeTilesTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTilesTableViewCell.h; path = Blaze/TableViewCells/BlazeTilesTableViewCell.h; sourceTree = "<group>"; };
+		483CAC82CF8A180BD6D0DCCE39985BE0 /* BlazeTilesTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTilesTableViewCell.m; path = Blaze/TableViewCells/BlazeTilesTableViewCell.m; sourceTree = "<group>"; };
+		4851AC75F1292F2C9462CAA29D58313D /* Blaze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Blaze.framework; path = Blaze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49884098E6855FF8645D4A3A63F0CEC4 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A74486E214B6535804042DC484F5ADF /* VIMVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VIMVideoPlayer.framework; path = VIMVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B57F62E0C0AA782C4EC532C1DB35D66 /* NSObject+PropertyName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PropertyName.h"; path = "Blaze/Categories/NSObject+PropertyName.h"; sourceTree = "<group>"; };
-		4C460B531339B3F258DBC202F6073C58 /* BlazeTextFieldTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTextFieldTableViewCell.m; path = Blaze/TableViewCells/BlazeTextFieldTableViewCell.m; sourceTree = "<group>"; };
-		4DDA57A418FE690E6D76CA0C56F0D117 /* BlazeTableHeaderFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTableHeaderFooterView.h; path = Blaze/TableViewHeaders/BlazeTableHeaderFooterView.h; sourceTree = "<group>"; };
-		4FBB26E0E7152BC1D06E0BF9FD7A29F5 /* BlazeCheckboxTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeCheckboxTableViewCell.h; path = Blaze/TableViewCells/BlazeCheckboxTableViewCell.h; sourceTree = "<group>"; };
-		5022D26DA716992DE0A9B3B2723157B8 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		4D7C67F032456B6160EA5D75160E1CD5 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		5041AB6D64008D69BA2355541FE8B683 /* BlazePickerViewField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazePickerViewField.h; path = Blaze/TextFields/BlazePickerViewField.h; sourceTree = "<group>"; };
 		50F3B8E8971EA1C99752B7670F317EB9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		51818DD086EBFC52FB15482999098764 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		53F59ACA88752C247F4F458F2575100C /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "Blaze/Categories/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
 		552550F3F912264E5D073F8893691F88 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		55F81B877E0A5DD5AD5975AA87473D82 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		5975C926F4D05858D83DFEB63B5FB087 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		5D370607940EBA64D5B5E09933191296 /* Blaze.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Blaze.framework; path = Blaze.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DC7E8FB55CD557ADCBEE182C51A5BBC /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		5F64D5AFB1321B864345FA72C266872D /* BlazeNSFetchedTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeNSFetchedTableViewController.h; path = Blaze/BlazeNSFetchedTableViewController.h; sourceTree = "<group>"; };
-		60773CF59108CEC72B905C4A6534DDE0 /* BlazeInputTile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeInputTile.h; path = Blaze/Objects/BlazeInputTile.h; sourceTree = "<group>"; };
-		61F09241DCAD6D48A4DAA8D2347DDBBE /* BlazeTwoChoicesTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTwoChoicesTableViewCell.m; path = Blaze/TableViewCells/BlazeTwoChoicesTableViewCell.m; sourceTree = "<group>"; };
-		62741CA9B08D9AB42C702ABBA7FAF2E2 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		636A3B1E8E4531400BB16FD79DC04249 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		659495318E3493F21423B550C0298B18 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		66DCCED4501DE6FDE4C2A95DC29375D4 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		59E1294C3B7C01C930F91AF463045714 /* BlazeTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTextField.m; path = Blaze/TextFields/BlazeTextField.m; sourceTree = "<group>"; };
+		5CD14A6FF06C81E511B1CAC88E252862 /* BlazeCheckboxTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeCheckboxTableViewCell.h; path = Blaze/TableViewCells/BlazeCheckboxTableViewCell.h; sourceTree = "<group>"; };
+		601E60E5A2FD9616B2E18FA6158B511F /* BlazeTileCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTileCollectionViewCell.m; path = Blaze/CollectionViewCells/BlazeTileCollectionViewCell.m; sourceTree = "<group>"; };
+		60FDA1A685176B226BF840708AAFF4BB /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		62A2F19A10716B5C5BED0CC6DBB95F02 /* BlazeTwoChoicesTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTwoChoicesTableViewCell.m; path = Blaze/TableViewCells/BlazeTwoChoicesTableViewCell.m; sourceTree = "<group>"; };
+		62D8110783A8686710E15E28ACA4194D /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		63E12CE31A3B041E9F1DEE5C2DDBE52A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6529EA55E3A689B4AEAAC1F1285EFDB5 /* BlazeSliderTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeSliderTableViewCell.h; path = Blaze/TableViewCells/BlazeSliderTableViewCell.h; sourceTree = "<group>"; };
+		68BF13C4DCB46F32C2A1D4E19D5501BB /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		699118D7DDD5F335E4FB8B17DC0F12D2 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		69C2ECB90B52C6D6AC128FDCCF5EBE9E /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		69C9F85B448380BEEC9C62274D53D0D3 /* BlazeImagePickerTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeImagePickerTableViewCell.m; path = Blaze/TableViewCells/BlazeImagePickerTableViewCell.m; sourceTree = "<group>"; };
-		6B8AA25E375A1314A286EAB9F810FA80 /* BlazeSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeSection.h; path = Blaze/Objects/BlazeSection.h; sourceTree = "<group>"; };
 		6BDF04D2BC41A16DE0D6300314EE70E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6F8985B9B8D8D53E39FA67710F4BB8BE /* BlazeRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeRow.h; path = Blaze/Objects/BlazeRow.h; sourceTree = "<group>"; };
-		72E2B289D854282616859105C3F91D23 /* BlazeImagePickerTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeImagePickerTableViewCell.h; path = Blaze/TableViewCells/BlazeImagePickerTableViewCell.h; sourceTree = "<group>"; };
-		7468C079ABEA38C39955100AF3AD3902 /* BlazeTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTableViewController.h; path = Blaze/BlazeTableViewController.h; sourceTree = "<group>"; };
-		76124C69B5FD37127A7025F0F857B7E9 /* Blaze-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Blaze-prefix.pch"; sourceTree = "<group>"; };
+		6C198F1F41B8D4E157DEA0C77F2016D8 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		6E133769106F030F94EF7E7A126E66FB /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		6F896DD1D606344BDF9F81E7EB65C3C5 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		74760C4D275570478F89933C0C68ED87 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		75B48608F4D38BAC672812B3B61B865F /* BlazeDateFieldProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeDateFieldProcessor.h; path = Blaze/FieldProcessors/BlazeDateFieldProcessor.h; sourceTree = "<group>"; };
+		75DBC911312D0F87A8DD4E3458C4174F /* BlazeSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeSection.h; path = Blaze/Objects/BlazeSection.h; sourceTree = "<group>"; };
 		764D33E23CE6C1111110B04F5CBADADB /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		775C6CDA2C88AE8D4046F660C124F66A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		78631BC732001D30F63D137459EF214E /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7BB8419F090981EEE3900DB83FCD785E /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		7A52A3C933444F7095FA3E7FE180A6E6 /* BlazeInputTile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeInputTile.m; path = Blaze/Objects/BlazeInputTile.m; sourceTree = "<group>"; };
+		7B8AE7F9CABE4F1F560CC1CA1C3BCD4C /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		7C74D6039957D514432962E982292588 /* BDGImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BDGImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FEB147CAD71165C97C078E167B950FA /* BlazeTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTextField.m; path = Blaze/TextFields/BlazeTextField.m; sourceTree = "<group>"; };
-		8094511B5699A84E6E8C653657F4986F /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		81BA3BD68B812599E0F4BE220B503060 /* BlazeTileCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTileCollectionViewCell.m; path = Blaze/CollectionViewCells/BlazeTileCollectionViewCell.m; sourceTree = "<group>"; };
-		81F94F5795FE998585815BAF0B3797FB /* BlazeTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTextView.m; path = Blaze/TextViews/BlazeTextView.m; sourceTree = "<group>"; };
-		82F7FE0E1CF5133E4383C61CD514D5A1 /* BlazeDatePickerField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeDatePickerField.h; path = Blaze/TextFields/BlazeDatePickerField.h; sourceTree = "<group>"; };
-		852D5827E4988309AE3FC8779D9DAFEE /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		85528E2FAE5109675C1E01AE9F7E4CBB /* BlazeSliderTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeSliderTableViewCell.h; path = Blaze/TableViewCells/BlazeSliderTableViewCell.h; sourceTree = "<group>"; };
-		85884C68582A8A8B0EBD879B346E832F /* BDGImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDGImagePicker-dummy.m"; sourceTree = "<group>"; };
+		7E260A81BB8F00A69C1309E653F17308 /* BlazeImagesScrollTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeImagesScrollTableViewCell.h; path = Blaze/TableViewCells/BlazeImagesScrollTableViewCell.h; sourceTree = "<group>"; };
+		7E4C9D752C568BF45E3D4C758BD3FA41 /* BlazePickerFieldProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazePickerFieldProcessor.m; path = Blaze/FieldProcessors/BlazePickerFieldProcessor.m; sourceTree = "<group>"; };
+		7E7AFA02FA53A5EFF934FB750FD72C82 /* NSObject+PropertyName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PropertyName.h"; path = "Blaze/Categories/NSObject+PropertyName.h"; sourceTree = "<group>"; };
+		7F1DAF7D4FDF42D3E61457469B619337 /* BlazeTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTableViewController.h; path = Blaze/BlazeTableViewController.h; sourceTree = "<group>"; };
+		8304EAA43AAF0A4A964D0AE30B928F79 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		8311465B350AD70FEDAA65B176E29C61 /* BlazeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeViewController.h; path = Blaze/BlazeViewController.h; sourceTree = "<group>"; };
+		898FE6C16E9A42DB166A139718297CC8 /* BlazeTableHeaderFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTableHeaderFooterView.h; path = Blaze/TableViewHeaders/BlazeTableHeaderFooterView.h; sourceTree = "<group>"; };
+		8B00812792EE64F01DBA1715E7FCCF36 /* Blaze-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Blaze-umbrella.h"; sourceTree = "<group>"; };
 		8B397958E7719AFEF36F21EE1DFEFA00 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		8C0E93678CA92553D5B4B5395018CA3D /* BlazeTileCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = BlazeTileCollectionViewCell.xib; path = Blaze/CollectionViewCells/BlazeTileCollectionViewCell.xib; sourceTree = "<group>"; };
-		8F94BD4192D7544242602B47EE4EC48C /* BlazePickerViewTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazePickerViewTableViewCell.h; path = Blaze/TableViewCells/BlazePickerViewTableViewCell.h; sourceTree = "<group>"; };
-		901C3EBB7FDF70CF227EC83AD0633D8D /* BlazeTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTextField.h; path = Blaze/TextFields/BlazeTextField.h; sourceTree = "<group>"; };
-		9127D89AC0EC70053D36AE813996E2FA /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		9293F849D1A869C548FBDD73E8091E2A /* BlazeRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeRow.m; path = Blaze/Objects/BlazeRow.m; sourceTree = "<group>"; };
+		8B433661EC1807C57B972424FB6D9914 /* BDGImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BDGImagePicker-dummy.m"; sourceTree = "<group>"; };
+		90BB4725DC1160CD54804B80C26003BF /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93D763BF169E24E958F78AEF5FCF8C66 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		941375D8C69A9D79EBF9B3D1910FEC4C /* BDGImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDGImagePicker.xcconfig; sourceTree = "<group>"; };
-		94D54DF695B75DDE15BAACBF26E1AD0E /* BlazeTableHeaderFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTableHeaderFooterView.m; path = Blaze/TableViewHeaders/BlazeTableHeaderFooterView.m; sourceTree = "<group>"; };
-		9B55776953B6AC4178648B89C3237B9D /* BlazePickerViewTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazePickerViewTableViewCell.m; path = Blaze/TableViewCells/BlazePickerViewTableViewCell.m; sourceTree = "<group>"; };
-		9D78F5B5F385A01433C9CD08A3403F2B /* BDGImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDGImagePicker-prefix.pch"; sourceTree = "<group>"; };
-		9DBA0472D6BD848A9ABDA8C5ED2239F5 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		A0481856CB2FC38B97C6E07C3A96E257 /* BlazeTextFieldTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTextFieldTableViewCell.h; path = Blaze/TableViewCells/BlazeTextFieldTableViewCell.h; sourceTree = "<group>"; };
-		A102A825E1A1246FF3A67D1416E1A6FE /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		A4D613797704ECC2F39419DDA1FC65F7 /* Blaze.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Blaze.modulemap; sourceTree = "<group>"; };
-		A5DBC53AB4EC1D96D0452252554EE671 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A63034D9C32FF3FB0DD2B75CEA0A7465 /* BlazePickerViewField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazePickerViewField.h; path = Blaze/TextFields/BlazePickerViewField.h; sourceTree = "<group>"; };
-		A6460C2843438F2C475A97F043DAE510 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		9498B292A0F4EA56FDB590B085C276B9 /* BlazeTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTableViewCell.h; path = Blaze/TableViewCells/BlazeTableViewCell.h; sourceTree = "<group>"; };
+		95A8DEE41A0D225AB7AE058A0C6F1242 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Blaze/Categories/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		95E24E854745F3148EE74AA0705B85F0 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+TextDirectionality.h"; path = "Blaze/Categories/NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		9734A8EC61F71B9B0310B854E7983B46 /* Arrow_Left@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Arrow_Left@2x.png"; path = "Blaze/Resources/Arrow_Left@2x.png"; sourceTree = "<group>"; };
+		9747E717464486196E67DEE450C41D9E /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Blaze/Categories/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		9BC42ADD0F747C7BA43EF9396678D5B4 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		9E0E92E8E56C0E1F211DF78697DC0528 /* BlazeDateFieldProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeDateFieldProcessor.m; path = Blaze/FieldProcessors/BlazeDateFieldProcessor.m; sourceTree = "<group>"; };
+		A244E07C9E26C9189EE504825FB390BD /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		A3A8929F943E647CC9DEF4662C618E65 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		A570DE9A0FB64526897A16B5E27770F7 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		A661FECCEBFF9D01869EE3B29C4C1EFF /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A707B07517BC6D38E60A266BFC623640 /* BlazeTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTableViewCell.m; path = Blaze/TableViewCells/BlazeTableViewCell.m; sourceTree = "<group>"; };
-		A94FC283F345173DE4459EBF8E126DDA /* VIMVideoPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VIMVideoPlayer-dummy.m"; sourceTree = "<group>"; };
-		A9B6F1B6D765F6FB84766CB365452530 /* BlazeInputTile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeInputTile.m; path = Blaze/Objects/BlazeInputTile.m; sourceTree = "<group>"; };
-		AA2BF9D56CCAAB4CA0E9613C906C123D /* BlazeTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTextView.h; path = Blaze/TextViews/BlazeTextView.h; sourceTree = "<group>"; };
-		AB5171C5EC52F7F0E2967A3F2B3B4F88 /* VIMVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIMVideoPlayer.m; path = "VIMVideoPlayer-Source/VIMVideoPlayer.m"; sourceTree = "<group>"; };
-		ADCD36F80DC2E3E96B076E5F6CBA02BE /* BlazeTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTableViewController.m; path = Blaze/BlazeTableViewController.m; sourceTree = "<group>"; };
-		AF3A6AF699A0889FD2AEE6D92B6239E3 /* VIMVideoPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VIMVideoPlayer.modulemap; sourceTree = "<group>"; };
-		B22DEFF5D722B34171056F87C2C12B3E /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "Blaze/Categories/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
-		B3C558A7FB0809113791456944BDF43D /* BlazeSegmentedControlTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeSegmentedControlTableViewCell.m; path = Blaze/TableViewCells/BlazeSegmentedControlTableViewCell.m; sourceTree = "<group>"; };
-		B9E2D83086FBA32E44C18907EF2B17AC /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A9104E1AF5E4EDFF0043F59545103C06 /* BlazeTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTextView.h; path = Blaze/TextViews/BlazeTextView.h; sourceTree = "<group>"; };
+		AB42871D47D22DA50EBACD33A83CE7E5 /* BDGImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BDGImagePicker.framework; path = BDGImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA581C815BB9D80553FEFA8C497AD49 /* BlazeSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeSection.m; path = Blaze/Objects/BlazeSection.m; sourceTree = "<group>"; };
+		ACAD65327F06163087615D2ABD5072F6 /* BlazeImagePickerTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeImagePickerTableViewCell.h; path = Blaze/TableViewCells/BlazeImagePickerTableViewCell.h; sourceTree = "<group>"; };
+		ADEEA5DE04A927614BBAEA754A90F8FA /* BlazeRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeRow.m; path = Blaze/Objects/BlazeRow.m; sourceTree = "<group>"; };
+		ADF40235CEC08C17106DA21FA555A1DC /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		B250C91A3283668A41A3B0CAC707BA8C /* BlazeTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTextView.m; path = Blaze/TextViews/BlazeTextView.m; sourceTree = "<group>"; };
+		B28564AE51D00E4AC9EFDD45E8D0A774 /* BlazeTileCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTileCollectionViewCell.h; path = Blaze/CollectionViewCells/BlazeTileCollectionViewCell.h; sourceTree = "<group>"; };
+		B5815EC68DF9C9D1B09948020C9771DD /* BlazeSwitchTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeSwitchTableViewCell.m; path = Blaze/TableViewCells/BlazeSwitchTableViewCell.m; sourceTree = "<group>"; };
+		B6D7DAA1CB2F6EF57C98A2CBEF801407 /* Blaze-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Blaze-dummy.m"; sourceTree = "<group>"; };
+		B7BAF4BCC3ADB0A9ED092BAB249F00D0 /* BDGImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDGImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		B7E5706CC3DC39ED60CF47C71F520114 /* BlazeTextFieldProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTextFieldProcessor.h; path = Blaze/FieldProcessors/BlazeTextFieldProcessor.h; sourceTree = "<group>"; };
+		B94275EC076D20345B618519B75091CC /* BlazeNSFetchedTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeNSFetchedTableViewController.m; path = Blaze/BlazeNSFetchedTableViewController.m; sourceTree = "<group>"; };
+		BB22F8647FBE071D383E3D0BE787727E /* BlazeSegmentedControlTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeSegmentedControlTableViewCell.h; path = Blaze/TableViewCells/BlazeSegmentedControlTableViewCell.h; sourceTree = "<group>"; };
 		BC9417FF297455DACE3DED5E6CFF67AE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		BE102560B1D2F4387A1D7987121C8EA5 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		C37B3FC84EA5B49C01FD5EB0EF040B02 /* VIMVideoPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIMVideoPlayer-prefix.pch"; sourceTree = "<group>"; };
-		C4DAF5B2F6728D43070E05B04BDFE3BB /* BlazeTilesTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTilesTableViewCell.h; path = Blaze/TableViewCells/BlazeTilesTableViewCell.h; sourceTree = "<group>"; };
-		C59A37F26628607E3BED65861FC2EC18 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		BD6F0D5A45FBDA1115F214ADCF13DEC2 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB3544B8B4934A250DB1CCA7E0225EB /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		C031BE9265643CC606D136BCAA11B7C4 /* BlazeDatePickerField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeDatePickerField.m; path = Blaze/TextFields/BlazeDatePickerField.m; sourceTree = "<group>"; };
+		C64C709D7454D74087CD9579860D307C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9BDE82371C83FA9AE91B05F77ACAA36 /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		CA92CD947E1C0A75D58516149A08459C /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		CB75B462731F1B3B189EADFAFB37B9E2 /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Blaze/Categories/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
-		D24DC01FDDB08040E4F466E61F3B63A5 /* BDGImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BDGImagePicker.framework; path = BDGImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D46C0ED20876B89871DF32EC2DA7F77D /* BlazeTextViewTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTextViewTableViewCell.h; path = Blaze/TableViewCells/BlazeTextViewTableViewCell.h; sourceTree = "<group>"; };
-		D82B4B80D4488D8302F6FA4B8AB09E2D /* BlazeTilesTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTilesTableViewCell.m; path = Blaze/TableViewCells/BlazeTilesTableViewCell.m; sourceTree = "<group>"; };
-		DE52494ADD999E6037030E5D684BEA87 /* BlazeTileCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTileCollectionViewCell.h; path = Blaze/CollectionViewCells/BlazeTileCollectionViewCell.h; sourceTree = "<group>"; };
-		DEE96247B73CC3E28639C9762358B40A /* VIMVideoPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VIMVideoPlayerView.m; path = "VIMVideoPlayer-Source/VIMVideoPlayerView.m"; sourceTree = "<group>"; };
-		E05753B1718BD8F740B513EC29A99FBC /* Blaze-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Blaze-umbrella.h"; sourceTree = "<group>"; };
-		E15845A9271107E820DE27172C111A7B /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		E17870A19A6150DD28B41B3E7A812758 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		E22A1CD087FA49EE27A56B28A5C5CF6F /* BlazeSliderTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeSliderTableViewCell.m; path = Blaze/TableViewCells/BlazeSliderTableViewCell.m; sourceTree = "<group>"; };
-		E273EEC08322B042AB555604A2502E89 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		E2AE53FA9B6387C80661A2FB9474211C /* BlazeSwitchTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeSwitchTableViewCell.h; path = Blaze/TableViewCells/BlazeSwitchTableViewCell.h; sourceTree = "<group>"; };
-		E4F32576C52328C16846E3CE695C66CC /* BlazePickerViewField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazePickerViewField.m; path = Blaze/TextFields/BlazePickerViewField.m; sourceTree = "<group>"; };
+		CCF0F618A6201FCF3DEB69CD4DC578F8 /* BlazeRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeRow.h; path = Blaze/Objects/BlazeRow.h; sourceTree = "<group>"; };
+		D0A3AADC8E3FE48C87534FB17F2C38A3 /* BlazeSwitchTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeSwitchTableViewCell.h; path = Blaze/TableViewCells/BlazeSwitchTableViewCell.h; sourceTree = "<group>"; };
+		D4025BCF65AB8F0A8F730CFF554771B1 /* BlazeTwoChoicesTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTwoChoicesTableViewCell.h; path = Blaze/TableViewCells/BlazeTwoChoicesTableViewCell.h; sourceTree = "<group>"; };
+		D7D83CA10902BA79D148E62CFD45B89E /* BlazeTextViewTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTextViewTableViewCell.h; path = Blaze/TableViewCells/BlazeTextViewTableViewCell.h; sourceTree = "<group>"; };
+		DB8389436DE828558F14B67EDFB06BF1 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		DFF80896BA3CFF38B4BA50E41E451A83 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		E026D873B3BE58673A1F8293C4475DA8 /* Blaze-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Blaze-prefix.pch"; sourceTree = "<group>"; };
 		E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		E7898ADA9B6259E18587F65DD73164DA /* Blaze.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Blaze.xcconfig; sourceTree = "<group>"; };
-		E7AE653DEBAFEF179A9F14FE4CA1B390 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E96F23710C032E960BD63B96130369E3 /* Arrow_Right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "Arrow_Right@2x.png"; path = "Blaze/Resources/Arrow_Right@2x.png"; sourceTree = "<group>"; };
-		EA5DAC2CDA694EC5E7A0834B555E52BF /* BlazeSwitchTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeSwitchTableViewCell.m; path = Blaze/TableViewCells/BlazeSwitchTableViewCell.m; sourceTree = "<group>"; };
-		EA6978EA12776D674569C87BA2B8DC46 /* BDGImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDGImagePicker-umbrella.h"; sourceTree = "<group>"; };
-		EBC7DBB3184ED9E51DBE8A5252455E4F /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		EF460B2F3B11A4A8B89E8B1138931CCD /* BlazeTilesCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTilesCollectionView.h; path = Blaze/CollectionViews/BlazeTilesCollectionView.h; sourceTree = "<group>"; };
+		E52B23C4E2A2D0C87001E32F88D46286 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+TextDirectionality.m"; path = "Blaze/Categories/NSString+TextDirectionality.m"; sourceTree = "<group>"; };
+		EA96E4F44883A806B460953FA155D026 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		ED01D3ACABDC678D9B1D977E20EB697B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		EEB2146F3D0CD8476B3B7779531BB1B7 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		EFFB74AAA6B2AE8DABF0E88E61E09178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0374E2F2CD788EEB12352C2C21FE4FB /* VIMVideoPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VIMVideoPlayer.xcconfig; sourceTree = "<group>"; };
-		F6F84EB31CCAD8BFB3C2B641D497CE89 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7DA0729326D6C4F44238D075A02F0C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAEA43EDEB57FB574B3CA0B6E32E78F1 /* Blaze-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Blaze-dummy.m"; sourceTree = "<group>"; };
-		FBA2A866B9E5F16FD4031D353B1C28C4 /* BlazeTilesCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTilesCollectionView.m; path = Blaze/CollectionViews/BlazeTilesCollectionView.m; sourceTree = "<group>"; };
-		FCD0D590B3DBED43431E386D158F1B83 /* BDGImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BDGImagePicker.h; path = BDGImagePicker/BDGImagePicker.h; sourceTree = "<group>"; };
-		FCFD6157D85695BC60E8240FE73AC715 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		FFA0EC51B6F6510AD58E7586D7A3E947 /* BlazeDateTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeDateTableViewCell.h; path = Blaze/TableViewCells/BlazeDateTableViewCell.h; sourceTree = "<group>"; };
+		F0C4CF9B21F1178C480D8D70075557C9 /* BlazeTilesCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BlazeTilesCollectionView.h; path = Blaze/CollectionViews/BlazeTilesCollectionView.h; sourceTree = "<group>"; };
+		F6B61BFA9B5C4A9DED22CD92E047D485 /* BlazeSegmentedControlTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeSegmentedControlTableViewCell.m; path = Blaze/TableViewCells/BlazeSegmentedControlTableViewCell.m; sourceTree = "<group>"; };
+		F87BF06BAF9B4F058B74A0A2EF099D65 /* BlazeTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BlazeTableViewController.m; path = Blaze/BlazeTableViewController.m; sourceTree = "<group>"; };
+		F8D2562EE2503B46B1FB813CDC4FAC9B /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		F9B3AA3D8FFB2B2C839584A684679E4C /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		FB0CAECC85006AC180AEE3F8BFBCBAEA /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		FE0AC6265D7DFFD4C194D00FD987778D /* BDGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BDGMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		269F6D895BAECB25FD2AF2251954CDBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8BC15883AEB70551833E5E3AD5DB6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		57F44911563C03EE01D7E49B4C1F0D0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,124 +334,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2C9253BA1860ED3D1E47827AAB8E0FA /* Frameworks */ = {
+		E15EA460F32765F69056FC9808FB3FA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3DB1F7518CA3E6313DE750A9B50AF5E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB2F40787453A65433FFDF2EE12C42A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				100E6A48B2A3F8A355932AB79246103C /* AFNetworking.framework in Frameworks */,
-				2888B8205E1FD5E4454D290F43AB073F /* BDGImagePicker.framework in Frameworks */,
-				3E2A722C6CD89E92C6A7958128704265 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D0B12D5724BF4383274EC2FF767C58A5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FF72CF42A9970649E6C550CF5FC2D73 /* Foundation.framework in Frameworks */,
+				127392FC81C089DE891B677D7719C414 /* AFNetworking.framework in Frameworks */,
+				C6332E37AF648D6E71DB9A8069567626 /* BDGImagePicker.framework in Frameworks */,
+				4ACFDD9659A60B649321B8CB732E51A6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01AB25409F19AD00D87BC44E915464EE /* Pods */ = {
+		0CA585641BF3662722FCBBAECCFC4D08 /* BDGMacros */ = {
 			isa = PBXGroup;
 			children = (
-				FE2E797C92008268F9AB569267587E69 /* AFNetworking */,
-				742E5E01CBAD64973375DB75F610FD92 /* BDGImagePicker */,
-				64A16E3C2A7FF7D76EC0474B9DA549F6 /* BDGMacros */,
-				EE5175F39099BC777AB08B4C21F6B261 /* Blaze */,
-				1CD547E2C792C7BF2C1B413C15644CA6 /* VIMVideoPlayer */,
+				FE0AC6265D7DFFD4C194D00FD987778D /* BDGMacros.h */,
 			);
-			name = Pods;
+			name = BDGMacros;
+			path = BDGMacros;
 			sourceTree = "<group>";
 		};
-		10D9B9E125A3F40E60D5FF1D916F9C8C /* Serialization */ = {
+		1443408EAFD14EF5A05AE6293F681969 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1301DB47A8D9A4E1F3D2FE7634B68E76 /* AFURLRequestSerialization.h */,
-				9DBA0472D6BD848A9ABDA8C5ED2239F5 /* AFURLRequestSerialization.m */,
-				E273EEC08322B042AB555604A2502E89 /* AFURLResponseSerialization.h */,
-				5975C926F4D05858D83DFEB63B5FB087 /* AFURLResponseSerialization.m */,
-			);
-			name = Serialization;
-			sourceTree = "<group>";
-		};
-		1CD547E2C792C7BF2C1B413C15644CA6 /* VIMVideoPlayer */ = {
-			isa = PBXGroup;
-			children = (
-				2C0B542CEDFA58AF04BA48F0A4F7D058 /* VIMVideoPlayer.h */,
-				AB5171C5EC52F7F0E2967A3F2B3B4F88 /* VIMVideoPlayer.m */,
-				274950D3B62053F1B84CAD08D77407E0 /* VIMVideoPlayerView.h */,
-				DEE96247B73CC3E28639C9762358B40A /* VIMVideoPlayerView.m */,
-				8C4AF9BBDA3A3E4DB7670A9D1BC2AE91 /* Support Files */,
-			);
-			name = VIMVideoPlayer;
-			path = VIMVideoPlayer;
-			sourceTree = "<group>";
-		};
-		2745B7D7222D813E5053F77560F879B0 /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				00A0D60C36A3C63A9D7083142C9B97AD /* AFNetworkReachabilityManager.h */,
-				B9E2D83086FBA32E44C18907EF2B17AC /* AFNetworkReachabilityManager.m */,
-			);
-			name = Reachability;
-			sourceTree = "<group>";
-		};
-		2FE00E27A2E62315260BA246E59F26E1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				636A3B1E8E4531400BB16FD79DC04249 /* AFNetworking.modulemap */,
-				C59A37F26628607E3BED65861FC2EC18 /* AFNetworking.xcconfig */,
-				66DCCED4501DE6FDE4C2A95DC29375D4 /* AFNetworking-dummy.m */,
-				659495318E3493F21423B550C0298B18 /* AFNetworking-prefix.pch */,
-				0820B3F5584F7FB9627D734284DFFB42 /* AFNetworking-umbrella.h */,
-				F6F84EB31CCAD8BFB3C2B641D497CE89 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/AFNetworking";
-			sourceTree = "<group>";
-		};
-		593B08BF5EEE33206464DC2C7B4C90B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				78631BC732001D30F63D137459EF214E /* AFNetworking.framework */,
-				D24DC01FDDB08040E4F466E61F3B63A5 /* BDGImagePicker.framework */,
-				5D370607940EBA64D5B5E09933191296 /* Blaze.framework */,
-				E7AE653DEBAFEF179A9F14FE4CA1B390 /* Pods_Example.framework */,
-				4A74486E214B6535804042DC484F5ADF /* VIMVideoPlayer.framework */,
+				90BB4725DC1160CD54804B80C26003BF /* AFNetworking.framework */,
+				AB42871D47D22DA50EBACD33A83CE7E5 /* BDGImagePicker.framework */,
+				4851AC75F1292F2C9462CAA29D58313D /* Blaze.framework */,
+				BD6F0D5A45FBDA1115F214ADCF13DEC2 /* Pods_Example.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E0A9EE29C326F612D6EF3A84329AD6B /* NSURLSession */ = {
+		1A18F04D330BC94A8F4B2FFF41E36BE2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				38FC62A38BCE7A974C850E5CB60D2BD4 /* AFHTTPSessionManager.h */,
-				BE102560B1D2F4387A1D7987121C8EA5 /* AFHTTPSessionManager.m */,
-				EBC7DBB3184ED9E51DBE8A5252455E4F /* AFURLSessionManager.h */,
-				361B3AAB72FA3C57EED70C38EAB60CA4 /* AFURLSessionManager.m */,
+				0E703CE0616107E248F8B043B7D8D15D /* Blaze.modulemap */,
+				2BE13E63F1206CBD643D4131D2464463 /* Blaze.xcconfig */,
+				B6D7DAA1CB2F6EF57C98A2CBEF801407 /* Blaze-dummy.m */,
+				E026D873B3BE58673A1F8293C4475DA8 /* Blaze-prefix.pch */,
+				8B00812792EE64F01DBA1715E7FCCF36 /* Blaze-umbrella.h */,
+				23512A33792DC04799303E4A08EF8186 /* Info.plist */,
 			);
-			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		64A16E3C2A7FF7D76EC0474B9DA549F6 /* BDGMacros */ = {
-			isa = PBXGroup;
-			children = (
-				1D8FD91994FCCFDE88DCFBE3019B66A7 /* BDGMacros.h */,
-			);
-			name = BDGMacros;
-			path = BDGMacros;
+			name = "Support Files";
+			path = "../Target Support Files/Blaze";
 			sourceTree = "<group>";
 		};
 		6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */ = {
@@ -465,33 +387,6 @@
 				FE9811ABEB5931E154211FCA14B78350 /* Pods-Example */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6F2172CF65E44BBF89768E5EA4873138 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				FCFD6157D85695BC60E8240FE73AC715 /* AFAutoPurgingImageCache.h */,
-				62741CA9B08D9AB42C702ABBA7FAF2E2 /* AFAutoPurgingImageCache.m */,
-				852D5827E4988309AE3FC8779D9DAFEE /* AFImageDownloader.h */,
-				55F81B877E0A5DD5AD5975AA87473D82 /* AFImageDownloader.m */,
-				400E2D8EE76AFC561B0BECA04F6C7148 /* AFNetworkActivityIndicatorManager.h */,
-				2C8C155A38D02730077C091D868A67BC /* AFNetworkActivityIndicatorManager.m */,
-				5DC7E8FB55CD557ADCBEE182C51A5BBC /* UIActivityIndicatorView+AFNetworking.h */,
-				444EA7CD54307C97A85A7863BB5984BB /* UIActivityIndicatorView+AFNetworking.m */,
-				161448479AB2149BCA384D4CC6DFB35E /* UIButton+AFNetworking.h */,
-				5022D26DA716992DE0A9B3B2723157B8 /* UIButton+AFNetworking.m */,
-				9127D89AC0EC70053D36AE813996E2FA /* UIImage+AFNetworking.h */,
-				51818DD086EBFC52FB15482999098764 /* UIImageView+AFNetworking.h */,
-				E15845A9271107E820DE27172C111A7B /* UIImageView+AFNetworking.m */,
-				CA92CD947E1C0A75D58516149A08459C /* UIKit+AFNetworking.h */,
-				8094511B5699A84E6E8C653657F4986F /* UIProgressView+AFNetworking.h */,
-				A6460C2843438F2C475A97F043DAE510 /* UIProgressView+AFNetworking.m */,
-				69C2ECB90B52C6D6AC128FDCCF5EBE9E /* UIRefreshControl+AFNetworking.h */,
-				1F05DD59F5E796AF045205C74822AF21 /* UIRefreshControl+AFNetworking.m */,
-				E17870A19A6150DD28B41B3E7A812758 /* UIWebView+AFNetworking.h */,
-				7BB8419F090981EEE3900DB83FCD785E /* UIWebView+AFNetworking.m */,
-			);
-			name = UIKit;
 			sourceTree = "<group>";
 		};
 		7238EE3218BFCA9F420723A978543E45 /* iOS */ = {
@@ -506,151 +401,227 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		742E5E01CBAD64973375DB75F610FD92 /* BDGImagePicker */ = {
-			isa = PBXGroup;
-			children = (
-				FCD0D590B3DBED43431E386D158F1B83 /* BDGImagePicker.h */,
-				35B68B6759E3B2D3CDD0BFF9DB13E56F /* BDGImagePicker.m */,
-				8253299E42A9B477CE835C87E67AA55C /* Support Files */,
-			);
-			name = BDGImagePicker;
-			path = BDGImagePicker;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				F6DAA76267C535AA2161517B034DEF77 /* Frameworks */,
-				01AB25409F19AD00D87BC44E915464EE /* Pods */,
-				593B08BF5EEE33206464DC2C7B4C90B6 /* Products */,
+				F63F06067C9FD66EE3E78259537D2219 /* Pods */,
+				1443408EAFD14EF5A05AE6293F681969 /* Products */,
 				6A4F6A14E3FB951290E4531728B7A461 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8253299E42A9B477CE835C87E67AA55C /* Support Files */ = {
+		8723A7D77729348F1CCC2683F8D33E94 /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				20FFE674F4DE8AFCCCED9A32E763EB99 /* BDGImagePicker.modulemap */,
-				941375D8C69A9D79EBF9B3D1910FEC4C /* BDGImagePicker.xcconfig */,
-				85884C68582A8A8B0EBD879B346E832F /* BDGImagePicker-dummy.m */,
-				9D78F5B5F385A01433C9CD08A3403F2B /* BDGImagePicker-prefix.pch */,
-				EA6978EA12776D674569C87BA2B8DC46 /* BDGImagePicker-umbrella.h */,
-				A5DBC53AB4EC1D96D0452252554EE671 /* Info.plist */,
+				A570DE9A0FB64526897A16B5E27770F7 /* AFNetworking.h */,
+				D485CDF51A3E47357BFB62C7D4B3C6F9 /* NSURLSession */,
+				DF5E6A428FA22B46A6FFEC0F7772EF81 /* Reachability */,
+				D3036806771FEDBCCC4D4A8D4A2EE755 /* Security */,
+				8C324E3562C5D79D5F26692561C2DA28 /* Serialization */,
+				A14C4F9EE1A334487BEB7D6201AACF2A /* Support Files */,
+				8BED6437E293C2F300B381A667B24A41 /* UIKit */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/BDGImagePicker";
+			name = AFNetworking;
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		8C4AF9BBDA3A3E4DB7670A9D1BC2AE91 /* Support Files */ = {
+		8BED6437E293C2F300B381A667B24A41 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				93D763BF169E24E958F78AEF5FCF8C66 /* Info.plist */,
-				AF3A6AF699A0889FD2AEE6D92B6239E3 /* VIMVideoPlayer.modulemap */,
-				F0374E2F2CD788EEB12352C2C21FE4FB /* VIMVideoPlayer.xcconfig */,
-				A94FC283F345173DE4459EBF8E126DDA /* VIMVideoPlayer-dummy.m */,
-				C37B3FC84EA5B49C01FD5EB0EF040B02 /* VIMVideoPlayer-prefix.pch */,
-				46D3799F1097D13C93E4A311A7CAA0B7 /* VIMVideoPlayer-umbrella.h */,
+				EEB2146F3D0CD8476B3B7779531BB1B7 /* AFAutoPurgingImageCache.h */,
+				0C4C1B8250B3641B8E0D0B7F99543F79 /* AFAutoPurgingImageCache.m */,
+				F9B3AA3D8FFB2B2C839584A684679E4C /* AFImageDownloader.h */,
+				EA96E4F44883A806B460953FA155D026 /* AFImageDownloader.m */,
+				3142348C28CC745971FEAC0CF37D6661 /* AFNetworkActivityIndicatorManager.h */,
+				A244E07C9E26C9189EE504825FB390BD /* AFNetworkActivityIndicatorManager.m */,
+				9BC42ADD0F747C7BA43EF9396678D5B4 /* UIActivityIndicatorView+AFNetworking.h */,
+				23E65B73619A62528BF5B2A80F048447 /* UIActivityIndicatorView+AFNetworking.m */,
+				74760C4D275570478F89933C0C68ED87 /* UIButton+AFNetworking.h */,
+				4D7C67F032456B6160EA5D75160E1CD5 /* UIButton+AFNetworking.m */,
+				13D6BC42DF4171B53CADE4AF476BD829 /* UIImage+AFNetworking.h */,
+				ADF40235CEC08C17106DA21FA555A1DC /* UIImageView+AFNetworking.h */,
+				60FDA1A685176B226BF840708AAFF4BB /* UIImageView+AFNetworking.m */,
+				3F5F80852E7FAB34C7F932C8EC854B7E /* UIKit+AFNetworking.h */,
+				00CFF5AE78EA43ED8D3DF9995C10EB6B /* UIProgressView+AFNetworking.h */,
+				6E133769106F030F94EF7E7A126E66FB /* UIProgressView+AFNetworking.m */,
+				1D354A2E84ED6B331AD735E9FD607364 /* UIRefreshControl+AFNetworking.h */,
+				8304EAA43AAF0A4A964D0AE30B928F79 /* UIRefreshControl+AFNetworking.m */,
+				FB0CAECC85006AC180AEE3F8BFBCBAEA /* UIWebView+AFNetworking.h */,
+				6C198F1F41B8D4E157DEA0C77F2016D8 /* UIWebView+AFNetworking.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/VIMVideoPlayer";
+			name = UIKit;
 			sourceTree = "<group>";
 		};
-		9DE58751E171B57C0CFCCA3CF8A253DC /* Resources */ = {
+		8C324E3562C5D79D5F26692561C2DA28 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				08FA7C4412CDE9567EBE479E46651076 /* Arrow_Left@2x.png */,
-				E96F23710C032E960BD63B96130369E3 /* Arrow_Right@2x.png */,
-				8C0E93678CA92553D5B4B5395018CA3D /* BlazeTileCollectionViewCell.xib */,
+				DFF80896BA3CFF38B4BA50E41E451A83 /* AFURLRequestSerialization.h */,
+				3EA3D6B5B1E81D351D6E6B76A5FB53E7 /* AFURLRequestSerialization.m */,
+				62D8110783A8686710E15E28ACA4194D /* AFURLResponseSerialization.h */,
+				36E6A8793DCD4BD4895CB32E48868E61 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		A14C4F9EE1A334487BEB7D6201AACF2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8D2562EE2503B46B1FB813CDC4FAC9B /* AFNetworking.modulemap */,
+				261F62986E1207410D0B03C2EB046569 /* AFNetworking.xcconfig */,
+				DB8389436DE828558F14B67EDFB06BF1 /* AFNetworking-dummy.m */,
+				BDB3544B8B4934A250DB1CCA7E0225EB /* AFNetworking-prefix.pch */,
+				29E2C771457A069DDEE4B10B6068EB5D /* AFNetworking-umbrella.h */,
+				63E12CE31A3B041E9F1DEE5C2DDBE52A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+		AE6185AE7910CFD5D5889254F425C3D2 /* BDGImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				3FB1401344AF23431836BBDFD049BC85 /* BDGImagePicker.h */,
+				2342954704EC4FF703525C2CEA03FB37 /* BDGImagePicker.m */,
+				F5DB18501C6B3A7A60F041F23D7EC742 /* Support Files */,
+			);
+			name = BDGImagePicker;
+			path = BDGImagePicker;
+			sourceTree = "<group>";
+		};
+		C38FD4E051C2ED93116149E7B901E6E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9734A8EC61F71B9B0310B854E7983B46 /* Arrow_Left@2x.png */,
+				132D6B85043AA2BADC50B446CD9C25FA /* Arrow_Right@2x.png */,
+				0CB95083B31C5A8529F73769B8DA32A4 /* BlazeTileCollectionViewCell.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		E289BBD393B04DF02CCF92217D8A6F9D /* Security */ = {
+		D3036806771FEDBCCC4D4A8D4A2EE755 /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				3D4133E7057FBECFDF5AD9616FFFC624 /* AFSecurityPolicy.h */,
-				A102A825E1A1246FF3A67D1416E1A6FE /* AFSecurityPolicy.m */,
+				ED01D3ACABDC678D9B1D977E20EB697B /* AFSecurityPolicy.h */,
+				445C415B326991BE169E16AA565B999B /* AFSecurityPolicy.m */,
 			);
 			name = Security;
 			sourceTree = "<group>";
 		};
-		EE5175F39099BC777AB08B4C21F6B261 /* Blaze */ = {
+		D485CDF51A3E47357BFB62C7D4B3C6F9 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				4FBB26E0E7152BC1D06E0BF9FD7A29F5 /* BlazeCheckboxTableViewCell.h */,
-				3FFA2549E822A76C9C28063FC70E7686 /* BlazeCheckboxTableViewCell.m */,
-				82F7FE0E1CF5133E4383C61CD514D5A1 /* BlazeDatePickerField.h */,
-				1173A859A432507376953B3F00B9480F /* BlazeDatePickerField.m */,
-				FFA0EC51B6F6510AD58E7586D7A3E947 /* BlazeDateTableViewCell.h */,
-				02AE26EAA36CB54BC4750258BA3368BF /* BlazeDateTableViewCell.m */,
-				72E2B289D854282616859105C3F91D23 /* BlazeImagePickerTableViewCell.h */,
-				69C9F85B448380BEEC9C62274D53D0D3 /* BlazeImagePickerTableViewCell.m */,
-				60773CF59108CEC72B905C4A6534DDE0 /* BlazeInputTile.h */,
-				A9B6F1B6D765F6FB84766CB365452530 /* BlazeInputTile.m */,
-				5F64D5AFB1321B864345FA72C266872D /* BlazeNSFetchedTableViewController.h */,
-				249C28925C5AADD0718069307E0840FF /* BlazeNSFetchedTableViewController.m */,
-				A63034D9C32FF3FB0DD2B75CEA0A7465 /* BlazePickerViewField.h */,
-				E4F32576C52328C16846E3CE695C66CC /* BlazePickerViewField.m */,
-				8F94BD4192D7544242602B47EE4EC48C /* BlazePickerViewTableViewCell.h */,
-				9B55776953B6AC4178648B89C3237B9D /* BlazePickerViewTableViewCell.m */,
-				6F8985B9B8D8D53E39FA67710F4BB8BE /* BlazeRow.h */,
-				9293F849D1A869C548FBDD73E8091E2A /* BlazeRow.m */,
-				6B8AA25E375A1314A286EAB9F810FA80 /* BlazeSection.h */,
-				0A595102AEE21FEA328A21CB54476CF8 /* BlazeSection.m */,
-				1D8DFBAB7B1187C60D96DDC447056BF9 /* BlazeSegmentedControlTableViewCell.h */,
-				B3C558A7FB0809113791456944BDF43D /* BlazeSegmentedControlTableViewCell.m */,
-				85528E2FAE5109675C1E01AE9F7E4CBB /* BlazeSliderTableViewCell.h */,
-				E22A1CD087FA49EE27A56B28A5C5CF6F /* BlazeSliderTableViewCell.m */,
-				E2AE53FA9B6387C80661A2FB9474211C /* BlazeSwitchTableViewCell.h */,
-				EA5DAC2CDA694EC5E7A0834B555E52BF /* BlazeSwitchTableViewCell.m */,
-				4DDA57A418FE690E6D76CA0C56F0D117 /* BlazeTableHeaderFooterView.h */,
-				94D54DF695B75DDE15BAACBF26E1AD0E /* BlazeTableHeaderFooterView.m */,
-				3B9EAED6FBC141958EDE7F278E188E84 /* BlazeTableViewCell.h */,
-				A707B07517BC6D38E60A266BFC623640 /* BlazeTableViewCell.m */,
-				7468C079ABEA38C39955100AF3AD3902 /* BlazeTableViewController.h */,
-				ADCD36F80DC2E3E96B076E5F6CBA02BE /* BlazeTableViewController.m */,
-				901C3EBB7FDF70CF227EC83AD0633D8D /* BlazeTextField.h */,
-				7FEB147CAD71165C97C078E167B950FA /* BlazeTextField.m */,
-				A0481856CB2FC38B97C6E07C3A96E257 /* BlazeTextFieldTableViewCell.h */,
-				4C460B531339B3F258DBC202F6073C58 /* BlazeTextFieldTableViewCell.m */,
-				AA2BF9D56CCAAB4CA0E9613C906C123D /* BlazeTextView.h */,
-				81F94F5795FE998585815BAF0B3797FB /* BlazeTextView.m */,
-				D46C0ED20876B89871DF32EC2DA7F77D /* BlazeTextViewTableViewCell.h */,
-				1D41D4A461A87D76E259F99DCFB5F7A7 /* BlazeTextViewTableViewCell.m */,
-				DE52494ADD999E6037030E5D684BEA87 /* BlazeTileCollectionViewCell.h */,
-				81BA3BD68B812599E0F4BE220B503060 /* BlazeTileCollectionViewCell.m */,
-				EF460B2F3B11A4A8B89E8B1138931CCD /* BlazeTilesCollectionView.h */,
-				FBA2A866B9E5F16FD4031D353B1C28C4 /* BlazeTilesCollectionView.m */,
-				C4DAF5B2F6728D43070E05B04BDFE3BB /* BlazeTilesTableViewCell.h */,
-				D82B4B80D4488D8302F6FA4B8AB09E2D /* BlazeTilesTableViewCell.m */,
-				0D6DF8304D53831ED5EDBBFC95FA3A9D /* BlazeTwoChoicesTableViewCell.h */,
-				61F09241DCAD6D48A4DAA8D2347DDBBE /* BlazeTwoChoicesTableViewCell.m */,
-				4B57F62E0C0AA782C4EC532C1DB35D66 /* NSObject+PropertyName.h */,
-				0EA28EA6B4575D5A851E1EC1A0E9F3EA /* NSObject+PropertyName.m */,
-				53F59ACA88752C247F4F458F2575100C /* NSString+TextDirectionality.h */,
-				B22DEFF5D722B34171056F87C2C12B3E /* NSString+TextDirectionality.m */,
-				CB75B462731F1B3B189EADFAFB37B9E2 /* UIScrollView+EmptyDataSet.h */,
-				0D788DD776AE19D3CED9F8D112542582 /* UIScrollView+EmptyDataSet.m */,
-				9DE58751E171B57C0CFCCA3CF8A253DC /* Resources */,
-				F5338484CF34F68850691600365C8373 /* Support Files */,
+				075AD4BF98570F9F0A016EAC020C724C /* AFHTTPSessionManager.h */,
+				239A4DDC8506AA33D1C674B9EF57B30E /* AFHTTPSessionManager.m */,
+				A3A8929F943E647CC9DEF4662C618E65 /* AFURLSessionManager.h */,
+				68BF13C4DCB46F32C2A1D4E19D5501BB /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		DF5E6A428FA22B46A6FFEC0F7772EF81 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				6F896DD1D606344BDF9F81E7EB65C3C5 /* AFNetworkReachabilityManager.h */,
+				7B8AE7F9CABE4F1F560CC1CA1C3BCD4C /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		E21432654FD2BA7BB50A478C2785B44B /* Blaze */ = {
+			isa = PBXGroup;
+			children = (
+				5CD14A6FF06C81E511B1CAC88E252862 /* BlazeCheckboxTableViewCell.h */,
+				204F9BB1B253F45E06EE7596E5A017C4 /* BlazeCheckboxTableViewCell.m */,
+				75B48608F4D38BAC672812B3B61B865F /* BlazeDateFieldProcessor.h */,
+				9E0E92E8E56C0E1F211DF78697DC0528 /* BlazeDateFieldProcessor.m */,
+				1EC3A3F6A4370CA6957F830AA9ECB8B9 /* BlazeDatePickerField.h */,
+				C031BE9265643CC606D136BCAA11B7C4 /* BlazeDatePickerField.m */,
+				2431667656123E71B170D5DAEA5B19C9 /* BlazeFieldProcessor.h */,
+				20503BC6DA87AB7B7DB631E5C6BDDD1C /* BlazeFieldProcessor.m */,
+				ACAD65327F06163087615D2ABD5072F6 /* BlazeImagePickerTableViewCell.h */,
+				05E897A2FCC5E4C3CFA7E6FB340BA032 /* BlazeImagePickerTableViewCell.m */,
+				7E260A81BB8F00A69C1309E653F17308 /* BlazeImagesScrollTableViewCell.h */,
+				0E38C0D1987DEBA366230D96DF791E88 /* BlazeImagesScrollTableViewCell.m */,
+				3873C3231D3863BD50288942FFBCD420 /* BlazeInputTile.h */,
+				7A52A3C933444F7095FA3E7FE180A6E6 /* BlazeInputTile.m */,
+				21E844F78ED3632325056F4037F10F7E /* BlazeNSFetchedTableViewController.h */,
+				B94275EC076D20345B618519B75091CC /* BlazeNSFetchedTableViewController.m */,
+				22C63C293F371477F440534A586113D5 /* BlazePickerFieldProcessor.h */,
+				7E4C9D752C568BF45E3D4C758BD3FA41 /* BlazePickerFieldProcessor.m */,
+				5041AB6D64008D69BA2355541FE8B683 /* BlazePickerViewField.h */,
+				0B7703D19DB1DD44C583039B82C11E6A /* BlazePickerViewField.m */,
+				CCF0F618A6201FCF3DEB69CD4DC578F8 /* BlazeRow.h */,
+				ADEEA5DE04A927614BBAEA754A90F8FA /* BlazeRow.m */,
+				75DBC911312D0F87A8DD4E3458C4174F /* BlazeSection.h */,
+				ACA581C815BB9D80553FEFA8C497AD49 /* BlazeSection.m */,
+				BB22F8647FBE071D383E3D0BE787727E /* BlazeSegmentedControlTableViewCell.h */,
+				F6B61BFA9B5C4A9DED22CD92E047D485 /* BlazeSegmentedControlTableViewCell.m */,
+				6529EA55E3A689B4AEAAC1F1285EFDB5 /* BlazeSliderTableViewCell.h */,
+				420E45CA8E45FF3646FBE1B50D1B3CB1 /* BlazeSliderTableViewCell.m */,
+				D0A3AADC8E3FE48C87534FB17F2C38A3 /* BlazeSwitchTableViewCell.h */,
+				B5815EC68DF9C9D1B09948020C9771DD /* BlazeSwitchTableViewCell.m */,
+				898FE6C16E9A42DB166A139718297CC8 /* BlazeTableHeaderFooterView.h */,
+				1985351DA963046092485F4C23199027 /* BlazeTableHeaderFooterView.m */,
+				9498B292A0F4EA56FDB590B085C276B9 /* BlazeTableViewCell.h */,
+				0AC297F2ED5FE7A04E66478D45CB7275 /* BlazeTableViewCell.m */,
+				7F1DAF7D4FDF42D3E61457469B619337 /* BlazeTableViewController.h */,
+				F87BF06BAF9B4F058B74A0A2EF099D65 /* BlazeTableViewController.m */,
+				36705C920A1BFDA1E6737355B9BE70B6 /* BlazeTextField.h */,
+				59E1294C3B7C01C930F91AF463045714 /* BlazeTextField.m */,
+				B7E5706CC3DC39ED60CF47C71F520114 /* BlazeTextFieldProcessor.h */,
+				10CE33AE8EE16708C5B642236773BE32 /* BlazeTextFieldProcessor.m */,
+				A9104E1AF5E4EDFF0043F59545103C06 /* BlazeTextView.h */,
+				B250C91A3283668A41A3B0CAC707BA8C /* BlazeTextView.m */,
+				D7D83CA10902BA79D148E62CFD45B89E /* BlazeTextViewTableViewCell.h */,
+				0F5DF7AB048F3B75ACF6A255E0E31662 /* BlazeTextViewTableViewCell.m */,
+				B28564AE51D00E4AC9EFDD45E8D0A774 /* BlazeTileCollectionViewCell.h */,
+				601E60E5A2FD9616B2E18FA6158B511F /* BlazeTileCollectionViewCell.m */,
+				F0C4CF9B21F1178C480D8D70075557C9 /* BlazeTilesCollectionView.h */,
+				13CE1158F988F420E80EA6F87EE6680A /* BlazeTilesCollectionView.m */,
+				46E3A9C479D2927A15E8A6CEBB927394 /* BlazeTilesTableViewCell.h */,
+				483CAC82CF8A180BD6D0DCCE39985BE0 /* BlazeTilesTableViewCell.m */,
+				D4025BCF65AB8F0A8F730CFF554771B1 /* BlazeTwoChoicesTableViewCell.h */,
+				62A2F19A10716B5C5BED0CC6DBB95F02 /* BlazeTwoChoicesTableViewCell.m */,
+				8311465B350AD70FEDAA65B176E29C61 /* BlazeViewController.h */,
+				3595ADBCCA91BA5C65D5ECAAC1E824AE /* BlazeViewController.m */,
+				7E7AFA02FA53A5EFF934FB750FD72C82 /* NSObject+PropertyName.h */,
+				362BA74D4F74B48019EA6C5CB499FA0D /* NSObject+PropertyName.m */,
+				95E24E854745F3148EE74AA0705B85F0 /* NSString+TextDirectionality.h */,
+				E52B23C4E2A2D0C87001E32F88D46286 /* NSString+TextDirectionality.m */,
+				9747E717464486196E67DEE450C41D9E /* UIScrollView+EmptyDataSet.h */,
+				95A8DEE41A0D225AB7AE058A0C6F1242 /* UIScrollView+EmptyDataSet.m */,
+				C38FD4E051C2ED93116149E7B901E6E5 /* Resources */,
+				1A18F04D330BC94A8F4B2FFF41E36BE2 /* Support Files */,
 			);
 			name = Blaze;
 			path = Blaze;
 			sourceTree = "<group>";
 		};
-		F5338484CF34F68850691600365C8373 /* Support Files */ = {
+		F5DB18501C6B3A7A60F041F23D7EC742 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A4D613797704ECC2F39419DDA1FC65F7 /* Blaze.modulemap */,
-				E7898ADA9B6259E18587F65DD73164DA /* Blaze.xcconfig */,
-				FAEA43EDEB57FB574B3CA0B6E32E78F1 /* Blaze-dummy.m */,
-				76124C69B5FD37127A7025F0F857B7E9 /* Blaze-prefix.pch */,
-				E05753B1718BD8F740B513EC29A99FBC /* Blaze-umbrella.h */,
-				F7DA0729326D6C4F44238D075A02F0C2 /* Info.plist */,
+				2C48A82C360BE03C69E16CC7DDD0B1D4 /* BDGImagePicker.modulemap */,
+				1B4143AB5BE0C040336376D6D8E84A19 /* BDGImagePicker.xcconfig */,
+				8B433661EC1807C57B972424FB6D9914 /* BDGImagePicker-dummy.m */,
+				B7BAF4BCC3ADB0A9ED092BAB249F00D0 /* BDGImagePicker-prefix.pch */,
+				140ED78276BECEB6C3AE2FA2F6AA10DD /* BDGImagePicker-umbrella.h */,
+				C64C709D7454D74087CD9579860D307C /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Blaze";
+			path = "../Target Support Files/BDGImagePicker";
+			sourceTree = "<group>";
+		};
+		F63F06067C9FD66EE3E78259537D2219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8723A7D77729348F1CCC2683F8D33E94 /* AFNetworking */,
+				AE6185AE7910CFD5D5889254F425C3D2 /* BDGImagePicker */,
+				0CA585641BF3662722FCBBAECCFC4D08 /* BDGMacros */,
+				E21432654FD2BA7BB50A478C2785B44B /* Blaze */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		F6DAA76267C535AA2161517B034DEF77 /* Frameworks */ = {
@@ -661,21 +632,6 @@
 				7238EE3218BFCA9F420723A978543E45 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		FE2E797C92008268F9AB569267587E69 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				476B82E3BD4EC2FE76DAF338FF652826 /* AFNetworking.h */,
-				5E0A9EE29C326F612D6EF3A84329AD6B /* NSURLSession */,
-				2745B7D7222D813E5053F77560F879B0 /* Reachability */,
-				E289BBD393B04DF02CCF92217D8A6F9D /* Security */,
-				10D9B9E125A3F40E60D5FF1D916F9C8C /* Serialization */,
-				2FE00E27A2E62315260BA246E59F26E1 /* Support Files */,
-				6F2172CF65E44BBF89768E5EA4873138 /* UIKit */,
-			);
-			name = AFNetworking;
-			path = AFNetworking;
 			sourceTree = "<group>";
 		};
 		FE9811ABEB5931E154211FCA14B78350 /* Pods-Example */ = {
@@ -708,48 +664,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48BAB92F899C199691505D74439A1F10 /* Headers */ = {
+		929D65AC5FEDE727D605D6450847B233 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34063CD881B177978DA59F1A69A7956B /* VIMVideoPlayer-umbrella.h in Headers */,
-				3FC6818BC56F32D413FB4CD917179167 /* VIMVideoPlayer.h in Headers */,
-				F30C387AEDC738C09F30A4B5F377AF18 /* VIMVideoPlayerView.h in Headers */,
+				C250833DAC9FAAFAD3C2C47DE7D1BA79 /* Pods-Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC2E2B030E6B764ACD308B2DF20DD9DD /* Headers */ = {
+		BE95C3C8F6166578CE7710A7DFA9BBB1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190C94876772A292F9737DDE3C56D35A /* Blaze-umbrella.h in Headers */,
-				5FA28AAD0C6DFF0273FFDA245A286FA0 /* BlazeCheckboxTableViewCell.h in Headers */,
-				7FACB3127164D20C3179DF9578E76CED /* BlazeDatePickerField.h in Headers */,
-				7A7CEF6807D3D746958DA2DF8118BEB2 /* BlazeDateTableViewCell.h in Headers */,
-				7B3F6EA286F1D403B6F2570B434443A7 /* BlazeImagePickerTableViewCell.h in Headers */,
-				2726370A77FA4CD5E03AB233A7C0F8C0 /* BlazeInputTile.h in Headers */,
-				5C10D0BCD6FBEBA8805A5D5C34707B78 /* BlazeNSFetchedTableViewController.h in Headers */,
-				9B5A38048A2D37BE82034B41EA6580ED /* BlazePickerViewField.h in Headers */,
-				D943B8B27D74B585C23F1F1E1576D26B /* BlazePickerViewTableViewCell.h in Headers */,
-				5BBA05606A0D875C833728A6CE5E2F50 /* BlazeRow.h in Headers */,
-				7B4AC4C8749BEFA1B9C87AD0D6E8A6F8 /* BlazeSection.h in Headers */,
-				4A5446E158D86E0C6336E43C6FCAFD79 /* BlazeSegmentedControlTableViewCell.h in Headers */,
-				75B90769036C96B9252FF7EA7513A69A /* BlazeSliderTableViewCell.h in Headers */,
-				F9CCA0C5EFC79F282469ABF2624B77E1 /* BlazeSwitchTableViewCell.h in Headers */,
-				74B4A65A9F01B23F9CB35B23043D7815 /* BlazeTableHeaderFooterView.h in Headers */,
-				A3A0157362BB3FFDE5D3184833FC192D /* BlazeTableViewCell.h in Headers */,
-				42D835B2DE4CC8DC8560BC731AF319EA /* BlazeTableViewController.h in Headers */,
-				9B2827FA25854544F98421CF0C949668 /* BlazeTextField.h in Headers */,
-				9AAEFCB151DF1A836FC4E61195B5E64C /* BlazeTextFieldTableViewCell.h in Headers */,
-				15DF0C04FCE7500B21A2D497C2CDC0FF /* BlazeTextView.h in Headers */,
-				68C24AEAC26E5416417B405FBB837F52 /* BlazeTextViewTableViewCell.h in Headers */,
-				B5D24449318A1847CE96EF8483DB4BA9 /* BlazeTileCollectionViewCell.h in Headers */,
-				DAAB6AC9822A729BE8EF5D842186165A /* BlazeTilesCollectionView.h in Headers */,
-				BE5E783ECE33ABE5D3A75B1C82D69B66 /* BlazeTilesTableViewCell.h in Headers */,
-				357E4C3E37DBED692C8B3E8724D8C6EE /* BlazeTwoChoicesTableViewCell.h in Headers */,
-				CB0D2D2EA1A6AF0449C9FA37C621EA33 /* NSObject+PropertyName.h in Headers */,
-				7E43A3DE9BF4A8CE52E7EE0349410B46 /* NSString+TextDirectionality.h in Headers */,
-				2358B80B0D4C40EF1BD452629ED5BB67 /* UIScrollView+EmptyDataSet.h in Headers */,
+				2FCB2E8B83FAB8F1086EC4C633A2EDD4 /* Blaze-umbrella.h in Headers */,
+				E18E72BBE42CFEB647E21C17C98B1138 /* BlazeCheckboxTableViewCell.h in Headers */,
+				64A0058E3B93573C568CFC990C6CC3EC /* BlazeDateFieldProcessor.h in Headers */,
+				2F27807CA5F78162CACE4451F6943D91 /* BlazeDatePickerField.h in Headers */,
+				EC13F7896034DD5BAA0232FDE689D663 /* BlazeFieldProcessor.h in Headers */,
+				69B49D606609B8B33CDF3327B0B8D60C /* BlazeImagePickerTableViewCell.h in Headers */,
+				BCEBE73168D7B826E3012F1A06AF570A /* BlazeImagesScrollTableViewCell.h in Headers */,
+				0F3A800403D796835A171CE220B5A102 /* BlazeInputTile.h in Headers */,
+				BC0AC889F2238372B9466D40F95C71FF /* BlazeNSFetchedTableViewController.h in Headers */,
+				5B7C363ED8469F3DDA05B796DCEB3A6F /* BlazePickerFieldProcessor.h in Headers */,
+				E2D0E222FABE29A0143E8910A94FCE63 /* BlazePickerViewField.h in Headers */,
+				F3B8BD4F7A49FC31127F4B8D9C88C9AA /* BlazeRow.h in Headers */,
+				C370F9F9CF00E5C593F77DC1E5346214 /* BlazeSection.h in Headers */,
+				A75903EDD785FD445AB0EA4FA0AA6806 /* BlazeSegmentedControlTableViewCell.h in Headers */,
+				2ABA3E4A6DCD2682B0C9D308614EE032 /* BlazeSliderTableViewCell.h in Headers */,
+				9D143ED49CBF0554167C6BF7CE3A7790 /* BlazeSwitchTableViewCell.h in Headers */,
+				01D8560C1B3349574AE7CE6ED47408DF /* BlazeTableHeaderFooterView.h in Headers */,
+				990BE82C0A9D1370E91780D750F069E4 /* BlazeTableViewCell.h in Headers */,
+				F45EF9C05E29182E63EDD506D59896AC /* BlazeTableViewController.h in Headers */,
+				2E634F5EDDE4662BB0AD07F33E32219A /* BlazeTextField.h in Headers */,
+				9162DED1328AFDFBD13FFCAE470C7DFC /* BlazeTextFieldProcessor.h in Headers */,
+				4895D18022E25A29B0780CCC592583F6 /* BlazeTextView.h in Headers */,
+				C0A0B2D4B4E94F463B24073D66E4DCA5 /* BlazeTextViewTableViewCell.h in Headers */,
+				76A6C251861DBCE871C399C4C3C541E3 /* BlazeTileCollectionViewCell.h in Headers */,
+				A9BAFB0B5F336D41B7758711408F1B9F /* BlazeTilesCollectionView.h in Headers */,
+				8F74E24A733322D528A31DF2D33F8CCA /* BlazeTilesTableViewCell.h in Headers */,
+				A3F410570E3E5A78176A64CD5FCCF180 /* BlazeTwoChoicesTableViewCell.h in Headers */,
+				0EF6E497259412A697519EA8FDFE8FC3 /* BlazeViewController.h in Headers */,
+				3403536B520DA75DD432D05DBE5B0084 /* NSObject+PropertyName.h in Headers */,
+				B37C5486D2A85B31237C6E6EA61B4E46 /* NSString+TextDirectionality.h in Headers */,
+				9DD1B02955EAC9E38E4B93FF94FA32CA /* UIScrollView+EmptyDataSet.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -779,17 +736,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D22325E56C18B47E1187C41639A1F5DC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6491C0A637E28B0B954AEC5AC31ABBDE /* Pods-Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		583690FE85E737A66E8DFF1CA577349A /* Blaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04929387ADDA1E96B11086713577AD77 /* Build configuration list for PBXNativeTarget "Blaze" */;
+			buildPhases = (
+				F4DF892B7B034B857F36DBC80FDB041D /* Sources */,
+				E15EA460F32765F69056FC9808FB3FA9 /* Frameworks */,
+				BE95C3C8F6166578CE7710A7DFA9BBB1 /* Headers */,
+				E6AD8E45279C9E28BD45DFB813D782A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				385B8DA7A17AE99D5997FB65DFF5D6A4 /* PBXTargetDependency */,
+				93B0E524B6223E5379559E1E106213A4 /* PBXTargetDependency */,
+			);
+			name = Blaze;
+			productName = Blaze;
+			productReference = 4851AC75F1292F2C9462CAA29D58313D /* Blaze.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		8D9422A701CE478839F943E072527874 /* BDGImagePicker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FA5A115945C10CC6A5B8211D9526CFC /* Build configuration list for PBXNativeTarget "BDGImagePicker" */;
@@ -804,28 +773,27 @@
 			);
 			name = BDGImagePicker;
 			productName = BDGImagePicker;
-			productReference = D24DC01FDDB08040E4F466E61F3B63A5 /* BDGImagePicker.framework */;
+			productReference = AB42871D47D22DA50EBACD33A83CE7E5 /* BDGImagePicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BFEBB2857EBF1B017B4BC848363718AF /* Pods-Example */ = {
+		A08E2E8F6830263E00D3C839F36BA6F9 /* Pods-Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0157231CAC6F4C50DDF2EA582C05744C /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildConfigurationList = 13AD5B778D170EEC56923EBDEF884E5D /* Build configuration list for PBXNativeTarget "Pods-Example" */;
 			buildPhases = (
-				C12B1AF7F4B2583CA6B2D73BD8DDFB6D /* Sources */,
-				D0B12D5724BF4383274EC2FF767C58A5 /* Frameworks */,
-				D22325E56C18B47E1187C41639A1F5DC /* Headers */,
+				02665BC3F5F6679D7130BBFB85B8DE52 /* Sources */,
+				269F6D895BAECB25FD2AF2251954CDBD /* Frameworks */,
+				929D65AC5FEDE727D605D6450847B233 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D97E0D04F569D13B1A4A0C9B88442253 /* PBXTargetDependency */,
-				80A58923456E61A9A328FB3AA859184A /* PBXTargetDependency */,
-				9BB7F01473EDCDDD24ED832B4EBB5AEF /* PBXTargetDependency */,
-				904BC526D70022A51DAF3C8BB6071CC8 /* PBXTargetDependency */,
+				D6E9A1488DD1186D9C1B998A58AFBD1F /* PBXTargetDependency */,
+				0FAEC3EA1E35D818B6BF56F642201687 /* PBXTargetDependency */,
+				57C1FE5918A97228A52FBF5C8BC2DDD0 /* PBXTargetDependency */,
 			);
 			name = "Pods-Example";
 			productName = "Pods-Example";
-			productReference = E7AE653DEBAFEF179A9F14FE4CA1B390 /* Pods_Example.framework */;
+			productReference = BD6F0D5A45FBDA1115F214ADCF13DEC2 /* Pods_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */ = {
@@ -842,44 +810,7 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 78631BC732001D30F63D137459EF214E /* AFNetworking.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D22538DB0C38D029364C7220E0CEB12B /* VIMVideoPlayer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F235E7729E306179C240F2DD563FC1B0 /* Build configuration list for PBXNativeTarget "VIMVideoPlayer" */;
-			buildPhases = (
-				7AA79DDB2293FD56128D9F9E6AA37E6C /* Sources */,
-				A2C9253BA1860ED3D1E47827AAB8E0FA /* Frameworks */,
-				48BAB92F899C199691505D74439A1F10 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = VIMVideoPlayer;
-			productName = VIMVideoPlayer;
-			productReference = 4A74486E214B6535804042DC484F5ADF /* VIMVideoPlayer.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FBF56660E046FAFA8CB4ABF56A82E665 /* Blaze */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA11DFC01474AF24B91FB9ABE369A6ED /* Build configuration list for PBXNativeTarget "Blaze" */;
-			buildPhases = (
-				F05DFE820693CF0D8B4ADDFEFEA502E5 /* Sources */,
-				CB2F40787453A65433FFDF2EE12C42A1 /* Frameworks */,
-				BC2E2B030E6B764ACD308B2DF20DD9DD /* Headers */,
-				EFFC204A66E0F28D6E1461D4343A8ED7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				99ABC48F5CFE5095C36AD9F461995231 /* PBXTargetDependency */,
-				091DE4940084733C38966FA8B1C28802 /* PBXTargetDependency */,
-			);
-			name = Blaze;
-			productName = Blaze;
-			productReference = 5D370607940EBA64D5B5E09933191296 /* Blaze.framework */;
+			productReference = 90BB4725DC1160CD54804B80C26003BF /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -899,57 +830,46 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 593B08BF5EEE33206464DC2C7B4C90B6 /* Products */;
+			productRefGroup = 1443408EAFD14EF5A05AE6293F681969 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */,
 				8D9422A701CE478839F943E072527874 /* BDGImagePicker */,
-				FBF56660E046FAFA8CB4ABF56A82E665 /* Blaze */,
-				BFEBB2857EBF1B017B4BC848363718AF /* Pods-Example */,
-				D22538DB0C38D029364C7220E0CEB12B /* VIMVideoPlayer */,
+				583690FE85E737A66E8DFF1CA577349A /* Blaze */,
+				A08E2E8F6830263E00D3C839F36BA6F9 /* Pods-Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EFFC204A66E0F28D6E1461D4343A8ED7 /* Resources */ = {
+		E6AD8E45279C9E28BD45DFB813D782A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0A4014A5330FB73793C5FBF8FE1E092 /* Arrow_Left@2x.png in Resources */,
-				F2591FBA39F758A9BACB122307112384 /* Arrow_Right@2x.png in Resources */,
-				AD60E25C00086C05EBAE614736225965 /* BlazeTileCollectionViewCell.xib in Resources */,
+				D984F9BF33936BFD6717882E76667A8D /* Arrow_Left@2x.png in Resources */,
+				0B50C72C2E3CA8838C0508816EB639A6 /* Arrow_Right@2x.png in Resources */,
+				55795B98FFF4861227F130124996B1BE /* BlazeTileCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		02665BC3F5F6679D7130BBFB85B8DE52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D81998BB6E95C0F6EF84035BF4159D7 /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5DE189E4CB07436258C9BF3411C06B19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				169289F7C08A8CE1F7F52F2EE34190F5 /* BDGImagePicker-dummy.m in Sources */,
 				ECE6ED1263DD03B51656B16039567EF6 /* BDGImagePicker.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7AA79DDB2293FD56128D9F9E6AA37E6C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E75392F692BB064C0E18258D0655782 /* VIMVideoPlayer-dummy.m in Sources */,
-				AB6B93DF3547859C2DC13EAE182C05E8 /* VIMVideoPlayer.m in Sources */,
-				C63859C314A41C0B13B8823123A8F11E /* VIMVideoPlayerView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C12B1AF7F4B2583CA6B2D73BD8DDFB6D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE9351F81C1E4F58A0A5E107B35E31E2 /* Pods-Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -976,79 +896,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F05DFE820693CF0D8B4ADDFEFEA502E5 /* Sources */ = {
+		F4DF892B7B034B857F36DBC80FDB041D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30965CE3DBC70D06C78A4FB034E21D64 /* Blaze-dummy.m in Sources */,
-				BA2ABE5C352CB59C8047DA1CF46C9528 /* BlazeCheckboxTableViewCell.m in Sources */,
-				C9EEDB9F9C1B8E3DE40461413C2ADB9F /* BlazeDatePickerField.m in Sources */,
-				9B058F2BA33B8C790A593DCA773EC691 /* BlazeDateTableViewCell.m in Sources */,
-				13588077AA53AACB9C09D9C9CF627184 /* BlazeImagePickerTableViewCell.m in Sources */,
-				00533FDCD3086A112C9E1F71B22CFF0D /* BlazeInputTile.m in Sources */,
-				3BF0AFF7BACD65A369A253A58C5001AC /* BlazeNSFetchedTableViewController.m in Sources */,
-				07989AB8076E41EE461445AFE79E6D1D /* BlazePickerViewField.m in Sources */,
-				6C309D491A8B526AA376FD9ED99A2828 /* BlazePickerViewTableViewCell.m in Sources */,
-				5FEDA1B3EF03ADCD9C1501ACD4801F25 /* BlazeRow.m in Sources */,
-				A08CEFACABF2C44E007A9204E2D653D8 /* BlazeSection.m in Sources */,
-				DCB8200A94B3352B9B252E8B8B0F6E4A /* BlazeSegmentedControlTableViewCell.m in Sources */,
-				9716B9D8E67ED9309345704E3E7630D6 /* BlazeSliderTableViewCell.m in Sources */,
-				A67B92A6D7E6264A505684F3234508CD /* BlazeSwitchTableViewCell.m in Sources */,
-				BAE105EC4338B199579C0448B8524A8A /* BlazeTableHeaderFooterView.m in Sources */,
-				7F1519199EA11DF75AF03FC9CE6F047D /* BlazeTableViewCell.m in Sources */,
-				B4A29D2F53B9C447B1587067B9D5D254 /* BlazeTableViewController.m in Sources */,
-				4CAF542EF4397DAB33C2F08B9263858A /* BlazeTextField.m in Sources */,
-				793A216418699C374B97DB58B38CB33B /* BlazeTextFieldTableViewCell.m in Sources */,
-				E2810F172905BE3FE06CD6A7F84349EB /* BlazeTextView.m in Sources */,
-				7E56D70D7211327569ED55A6741156DF /* BlazeTextViewTableViewCell.m in Sources */,
-				EF1A2B56B8253717F9F1344D0145FDB8 /* BlazeTileCollectionViewCell.m in Sources */,
-				71BD9DDF801E8724AD4F0053DC0A43F9 /* BlazeTilesCollectionView.m in Sources */,
-				A2A1FF2CC3D13F932215ED33FA3F462B /* BlazeTilesTableViewCell.m in Sources */,
-				4339C89DF5B653B75CD11F4E619AD957 /* BlazeTwoChoicesTableViewCell.m in Sources */,
-				B1C44B877A4CFE9D744EC90237C57C1D /* NSObject+PropertyName.m in Sources */,
-				8C884AEBE10258895873C643AD602F92 /* NSString+TextDirectionality.m in Sources */,
-				CE883C64D82FD9F3AE502ABC1213898F /* UIScrollView+EmptyDataSet.m in Sources */,
+				80ACB8A8AAC0C424C354CA2DC4C7A6D2 /* Blaze-dummy.m in Sources */,
+				60B061A64FB79F1BBA488888A176515E /* BlazeCheckboxTableViewCell.m in Sources */,
+				23CB2F9066D3991172F7B4862ECA79A9 /* BlazeDateFieldProcessor.m in Sources */,
+				26244C7F9316FEE2349FB325C02BB5A3 /* BlazeDatePickerField.m in Sources */,
+				F15AE6AC58CE3BBB10D085E625661607 /* BlazeFieldProcessor.m in Sources */,
+				95769E80B0E9D51C548AFBD9BB2310F2 /* BlazeImagePickerTableViewCell.m in Sources */,
+				3C975B7504D946C0CA6C53DC53E55858 /* BlazeImagesScrollTableViewCell.m in Sources */,
+				E93EAEBAB1C8DEFCF3D880E21748E41C /* BlazeInputTile.m in Sources */,
+				F47542BFCA1982FA9CB03D9D1F16D142 /* BlazeNSFetchedTableViewController.m in Sources */,
+				58906AAFD7806CACFBD59823BA66F524 /* BlazePickerFieldProcessor.m in Sources */,
+				DAC1E9AC5B9E59AD99379543D7E3B781 /* BlazePickerViewField.m in Sources */,
+				9C202A00355E2A0EDB1D32C604AF1A8D /* BlazeRow.m in Sources */,
+				F3F4FE4C694D9E96E3EB88C77AC84806 /* BlazeSection.m in Sources */,
+				E280981C219484FFB91335F1C393139F /* BlazeSegmentedControlTableViewCell.m in Sources */,
+				25F5A6BE4AB19F4A23AC2CC770FBF1A0 /* BlazeSliderTableViewCell.m in Sources */,
+				A29FDDB255F0DF42F803D79E8A740FFB /* BlazeSwitchTableViewCell.m in Sources */,
+				9665C6ADB887796F0809DAAD0BACA976 /* BlazeTableHeaderFooterView.m in Sources */,
+				0434413E94989114F58E200958AE3AD1 /* BlazeTableViewCell.m in Sources */,
+				A747D00115833F9379983D02A9DC8B95 /* BlazeTableViewController.m in Sources */,
+				41EE744FF2D1599DEF3F9647E187AEE7 /* BlazeTextField.m in Sources */,
+				DEE35603A08745CD42BCC9E370A61364 /* BlazeTextFieldProcessor.m in Sources */,
+				0C5B301FE410C55CE52F555D21765A88 /* BlazeTextView.m in Sources */,
+				FAB96CB84FFB4CC6AA6C880FAF868CEC /* BlazeTextViewTableViewCell.m in Sources */,
+				20ED9CEC3984202ED59D595D9E9918BE /* BlazeTileCollectionViewCell.m in Sources */,
+				CF7FBC61EB66CD7B93E15E5B6726E1D1 /* BlazeTilesCollectionView.m in Sources */,
+				FAF1DDFB9A09E8539F06AFB8963B6117 /* BlazeTilesTableViewCell.m in Sources */,
+				51BDFAEB1ACBCD8DC94F3627230C9F34 /* BlazeTwoChoicesTableViewCell.m in Sources */,
+				2EF5FDB2BBC80126D64AF74552A85890 /* BlazeViewController.m in Sources */,
+				39F26D44DC2D3B63E0DA258E58066315 /* NSObject+PropertyName.m in Sources */,
+				3BDB6F96188DE198013985448849A3E9 /* NSString+TextDirectionality.m in Sources */,
+				B2C998492BDDB2D8A02D657E866957DC /* UIScrollView+EmptyDataSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		091DE4940084733C38966FA8B1C28802 /* PBXTargetDependency */ = {
+		0FAEC3EA1E35D818B6BF56F642201687 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BDGImagePicker;
 			target = 8D9422A701CE478839F943E072527874 /* BDGImagePicker */;
-			targetProxy = CFD4F2173ADC7DA0F1349C3F4CD10341 /* PBXContainerItemProxy */;
+			targetProxy = 77F1A39BEDDCF2852E1025A65DE078F0 /* PBXContainerItemProxy */;
 		};
-		80A58923456E61A9A328FB3AA859184A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = BDGImagePicker;
-			target = 8D9422A701CE478839F943E072527874 /* BDGImagePicker */;
-			targetProxy = 879CF9C3ABA22639415191F50BF73A22 /* PBXContainerItemProxy */;
-		};
-		904BC526D70022A51DAF3C8BB6071CC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = VIMVideoPlayer;
-			target = D22538DB0C38D029364C7220E0CEB12B /* VIMVideoPlayer */;
-			targetProxy = DAC353A729B0807F150C296FD1650316 /* PBXContainerItemProxy */;
-		};
-		99ABC48F5CFE5095C36AD9F461995231 /* PBXTargetDependency */ = {
+		385B8DA7A17AE99D5997FB65DFF5D6A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */;
-			targetProxy = F6113F78A049E2EE9CB72871206F38A2 /* PBXContainerItemProxy */;
+			targetProxy = FDA025421BBC122CF626A5F9F8CB5DFD /* PBXContainerItemProxy */;
 		};
-		9BB7F01473EDCDDD24ED832B4EBB5AEF /* PBXTargetDependency */ = {
+		57C1FE5918A97228A52FBF5C8BC2DDD0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Blaze;
-			target = FBF56660E046FAFA8CB4ABF56A82E665 /* Blaze */;
-			targetProxy = D0A9C7C86EE85CF921FF767A91E0DF45 /* PBXContainerItemProxy */;
+			target = 583690FE85E737A66E8DFF1CA577349A /* Blaze */;
+			targetProxy = 733CB11053338C2C3A9F8CBBCFE74F25 /* PBXContainerItemProxy */;
 		};
-		D97E0D04F569D13B1A4A0C9B88442253 /* PBXTargetDependency */ = {
+		93B0E524B6223E5379559E1E106213A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BDGImagePicker;
+			target = 8D9422A701CE478839F943E072527874 /* BDGImagePicker */;
+			targetProxy = F866548A1E5460AC7E18978D4444AB6F /* PBXContainerItemProxy */;
+		};
+		D6E9A1488DD1186D9C1B998A58AFBD1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */;
-			targetProxy = 579BDE8E42A3BEF899AF7A775350B4EE /* PBXContainerItemProxy */;
+			targetProxy = E28F4ED5DBDFA55408FB98979694E21D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1137,73 +1054,7 @@
 			};
 			name = Release;
 		};
-		4FE0CC8C268A30E8450A14791EE8D899 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		53C01013C7F4825F06EF2F82E3CF061E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7898ADA9B6259E18587F65DD73164DA /* Blaze.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Blaze/Blaze-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Blaze/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Blaze/Blaze.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Blaze;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		53FDB234F994488A69F67554A842869B /* Debug */ = {
+		4FFEE4E7CF898FE49624EDD67C8B6BDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 149054C495E8EC590CAB4C524133016F /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
@@ -1238,9 +1089,44 @@
 			};
 			name = Debug;
 		};
+		5164BC1A277BE79C5DEE8AE7AC0272EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E512A5F985F876750237FD237C3AEEDA /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		570877A1EEEF39C1B130CCEEB53C7B51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C59A37F26628607E3BED65861FC2EC18 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 261F62986E1207410D0B03C2EB046569 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1269,9 +1155,40 @@
 			};
 			name = Release;
 		};
+		8F92179C8BBEA6AE90AA3257BA4CE636 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BE13E63F1206CBD643D4131D2464463 /* Blaze.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Blaze/Blaze-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Blaze/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Blaze/Blaze.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Blaze;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		9792D85FAB13622954F79BDD5DFB03A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 941375D8C69A9D79EBF9B3D1910FEC4C /* BDGImagePicker.xcconfig */;
+			baseConfigurationReference = 1B4143AB5BE0C040336376D6D8E84A19 /* BDGImagePicker.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1300,9 +1217,9 @@
 			};
 			name = Debug;
 		};
-		99934474B67CEBB3A9DA3A8A8EEF5716 /* Debug */ = {
+		D8F6BDE5F800E8B05BE7D6A271684D7B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7898ADA9B6259E18587F65DD73164DA /* Blaze.xcconfig */;
+			baseConfigurationReference = 2BE13E63F1206CBD643D4131D2464463 /* Blaze.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1331,71 +1248,9 @@
 			};
 			name = Debug;
 		};
-		9E40FE4564426631730D448340B7941D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0374E2F2CD788EEB12352C2C21FE4FB /* VIMVideoPlayer.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VIMVideoPlayer/VIMVideoPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VIMVideoPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VIMVideoPlayer/VIMVideoPlayer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = VIMVideoPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C87EE61F3457A8D7C96AF439977E7611 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0374E2F2CD788EEB12352C2C21FE4FB /* VIMVideoPlayer.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/VIMVideoPlayer/VIMVideoPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/VIMVideoPlayer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/VIMVideoPlayer/VIMVideoPlayer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = VIMVideoPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EC3EE9EBDDF7444FC52168CE82FF000C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C59A37F26628607E3BED65861FC2EC18 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = 261F62986E1207410D0B03C2EB046569 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1426,7 +1281,7 @@
 		};
 		F9D3D9367744565F6BD8059C72510691 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 941375D8C69A9D79EBF9B3D1910FEC4C /* BDGImagePicker.xcconfig */;
+			baseConfigurationReference = 1B4143AB5BE0C040336376D6D8E84A19 /* BDGImagePicker.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1458,11 +1313,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0157231CAC6F4C50DDF2EA582C05744C /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+		04929387ADDA1E96B11086713577AD77 /* Build configuration list for PBXNativeTarget "Blaze" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				53FDB234F994488A69F67554A842869B /* Debug */,
-				4FE0CC8C268A30E8450A14791EE8D899 /* Release */,
+				D8F6BDE5F800E8B05BE7D6A271684D7B /* Debug */,
+				8F92179C8BBEA6AE90AA3257BA4CE636 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AD5B778D170EEC56923EBDEF884E5D /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFEE4E7CF898FE49624EDD67C8B6BDD /* Debug */,
+				5164BC1A277BE79C5DEE8AE7AC0272EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1490,24 +1354,6 @@
 			buildConfigurations = (
 				9792D85FAB13622954F79BDD5DFB03A5 /* Debug */,
 				F9D3D9367744565F6BD8059C72510691 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AA11DFC01474AF24B91FB9ABE369A6ED /* Build configuration list for PBXNativeTarget "Blaze" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				99934474B67CEBB3A9DA3A8A8EEF5716 /* Debug */,
-				53C01013C7F4825F06EF2F82E3CF061E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F235E7729E306179C240F2DD563FC1B0 /* Build configuration list for PBXNativeTarget "VIMVideoPlayer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C87EE61F3457A8D7C96AF439977E7611 /* Debug */,
-				9E40FE4564426631730D448340B7941D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

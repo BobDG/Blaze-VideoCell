@@ -17,4 +17,5 @@
 
 @property(nonatomic,strong) IBOutlet UIView *videoPlayerView;
 
+
 @end

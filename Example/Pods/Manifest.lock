@@ -14,25 +14,22 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - BDGImagePicker (0.0.11)
+  - BDGImagePicker (0.0.12)
   - BDGMacros (0.0.18)
-  - Blaze (1.0.22):
+  - Blaze (1.0.57):
     - AFNetworking
     - BDGImagePicker
-  - VIMVideoPlayer (6.0.1)
 
 DEPENDENCIES:
   - BDGMacros
   - Blaze
-  - VIMVideoPlayer
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  BDGImagePicker: 7b15d5dcc5130d50f2a5eb127785138897a0d7e3
+  BDGImagePicker: 86bbb8e55b30af261b161cd019d4055f42ad275b
   BDGMacros: 8d03817ec90f2c028648722f3289569dee4ed73f
-  Blaze: 5f358e032a939c8d15cd234ffeae43b2e33e761b
-  VIMVideoPlayer: f4ed0a9986294ec3684a2e6bdc738e30051ef4ef
+  Blaze: 852db1a196d8cefcce6ca1bd64481b4c8c275678
 
-PODFILE CHECKSUM: b8c159274654b2976e8e4a89f4a0d6feeb8c6473
+PODFILE CHECKSUM: d65cdb008d8e294b7e8341622bef3719cd5137e8
 
 COCOAPODS: 1.1.1
