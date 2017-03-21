@@ -143,7 +143,7 @@ typedef NS_ENUM(NSInteger, YTPlayerError) {
 @property(nonatomic, strong, nullable, readonly) UIWebView *webView;
 
 /** A delegate to be notified on playback events. */
-@property(nonatomic, weak, nullable) id<YTPlayerViewDelegate> delegate;
+@property(nonatomic, assign, nullable) id<YTPlayerViewDelegate> delegate;
 
 /**
  * This method loads the player with the given video ID.
