@@ -65,7 +65,7 @@ NSString static *const kYTPlayerSyndicationRegexPattern = @"^https://tpc.googles
 @interface YTPlayerView()
 
 @property (nonatomic, strong) NSURL *originURL;
-@property (nonatomic, weak) UIView *initialLoadingView;
+@property (nonatomic, strong) UIView *initialLoadingView;
 
 @end
 
