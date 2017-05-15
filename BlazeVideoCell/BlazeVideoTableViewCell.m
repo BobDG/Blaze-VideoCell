@@ -51,8 +51,6 @@
         return;
     }
     
-    
-    
     //Setup player
     if(!self.playerViewController) {
         self.playerViewController = [AVPlayerViewController new];

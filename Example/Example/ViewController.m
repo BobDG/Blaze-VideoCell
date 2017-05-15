@@ -55,7 +55,7 @@
         //Video-link
         {
             BlazeVideoRow *videoRow = [BlazeVideoRow rowWithXibName:XIBVideoTableViewCell];
-            videoRow.videoURL = [NSURL URLWithString:@"http://a1408.g.akamai.net/5/1408/1388/2005110405/1a1a1ad948be278cff2d96046ad90768d848b41947aa1986/sample_mpeg4.mp4"];
+            videoRow.videoURL = [NSURL URLWithString:@"http://techslides.com/demos/sample-videos/small.mp4"];
             videoRow.videoDisableControls = FALSE;
             videoRow.videoAutoPlay = TRUE;
             [section addRow:videoRow];
