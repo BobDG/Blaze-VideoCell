@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.authors        = {'Bob de Graaf' => 'graafict@gmail.com'}
   s.source         = { :git => 'https://github.com/BobDG/Blaze-VideoCell.git', :tag => s.version.to_s }
   s.source_files   = 'BlazeVideoCell/*.{h,m}'
-  s.platform       = :ios
-  s.requires_arc   = 'true'
+s.platform       	= :ios, '8.0'
+  s.requires_arc   	= true
   s.dependency     'Blaze'
   s.dependency	   'youtube-ios-player-helper'
 end
